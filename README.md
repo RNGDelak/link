@@ -8,3 +8,5 @@ Loader's Number analysis by Shaoju : https://docs.google.com/spreadsheets/d/1ilv
 
 Number list by @solverseeks https://solverseek666.github.io/googology-website/ and https://solverseek666.github.io/googology-website/CLoTLN/
 
+Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
+
