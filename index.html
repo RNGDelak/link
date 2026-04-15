@@ -303,8 +303,10 @@
     <h2>See more!</h2>
 
     <p>
-        This section has a bunch of links from many topics, so I decided to hide it : 
-        <a href="javascript:void(0)" id="toggleBtn" onclick="toggleLinks(this)"> [show all links]</a>
+        This section has a bunch of links from many topics, so I decided to hide it:
+        <button id="toggleBtn" onclick="toggleLinks(this)">
+            Show all links
+        </button>
     </p>
 
     <div id="moreLinks" style="display:none; margin-top:15px;"></div>
@@ -321,20 +323,20 @@
     <p>I originally considered adding a ranking system, but decided against it—every project here is equally interesting.</p>
 </div>  
 
-
-    <script>
 <script>
 
 // ==========================
 // TOGGLE + LOAD LINKS
 // ==========================
+<script>
 async function toggleLinks(btn) {
     const box = document.getElementById("moreLinks")
 
     if (box.style.display === "none") {
         box.style.display = "block"
-        btn.textContent = "[hide all links]"
+        btn.textContent = "Hide links"
 
+        // Load only once
         if (!box.dataset.loaded) {
             box.innerHTML = "Loading..."
 
@@ -342,25 +344,15 @@ async function toggleLinks(btn) {
                 const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
                 const text = await res.text()
 
-                const lines = text.split("\n")
-
-                const html = lines.map(line => {
-                    if (!line.trim()) return ""
-
-                    // Safe URL conversion (NO double processing)
-                    const safeLine = line.replace(
-                        /(https?:\/\/[^\s)]+)/g,
+                // Escape HTML + convert URLs → links
+                let html = text
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(
+                        /(https?:\/\/[^\s]+)/g,
                         url => `<a href="${url}" target="_blank">${url}</a>`
                     )
-
-                    return `
-                        <div class="project">
-                            <div class="project-info">
-                                ${safeLine}
-                            </div>
-                        </div>
-                    `
-                }).join("")
+                    .replace(/\n/g, "<br>")
 
                 box.innerHTML = html
                 box.dataset.loaded = "true"
@@ -372,7 +364,7 @@ async function toggleLinks(btn) {
 
     } else {
         box.style.display = "none"
-        btn.textContent = "[show all links]"
+        btn.textContent = "Show all links"
     }
 }
 
@@ -452,7 +444,7 @@ function highlight(element, term) {
 
 </script>
 
-    </script>
+
 
 </body>
 
