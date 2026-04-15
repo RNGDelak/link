@@ -1,4 +1,3 @@
-
 Loader's Number analysis by Shaoju : https://docs.google.com/spreadsheets/d/1ilvsLzJ2R5P2Clo4UF2SbFNEYbBKdy3PEwEz14qJqSo/edit?usp=drivesdk (Loader's number definition : https://googology.fandom.com/wiki/Loader's_number)  
 
 Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
