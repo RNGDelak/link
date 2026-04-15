@@ -323,7 +323,11 @@
 
 
     <script>
-    
+<script>
+
+// ==========================
+// TOGGLE + LOAD LINKS
+// ==========================
 async function toggleLinks(btn) {
     const box = document.getElementById("moreLinks")
 
@@ -338,27 +342,25 @@ async function toggleLinks(btn) {
                 const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
                 const text = await res.text()
 
-                let html = text
-                    .replace(/</g, "&lt;")
-                    .replace(/>/g, "&gt;")
-                    .replace(
-                        /(https?:\/\/[^\s]+)/g,
+                const lines = text.split("\n")
+
+                const html = lines.map(line => {
+                    if (!line.trim()) return ""
+
+                    // Safe URL conversion (NO double processing)
+                    const safeLine = line.replace(
+                        /(https?:\/\/[^\s)]+)/g,
                         url => `<a href="${url}" target="_blank">${url}</a>`
                     )
-                    .split("\n").map(line => {
-    if (!line.trim()) return ""
 
-    return `
-        <div class="project">
-            <div class="project-info">
-                ${line.replace(
-                    /(https?:\/\/[^\s]+)/g,
-                    url => `<a href="${url}" target="_blank">${url}</a>`
-                )}
-            </div>
-        </div>
-    `
-}).join("")
+                    return `
+                        <div class="project">
+                            <div class="project-info">
+                                ${safeLine}
+                            </div>
+                        </div>
+                    `
+                }).join("")
 
                 box.innerHTML = html
                 box.dataset.loaded = "true"
@@ -374,21 +376,27 @@ async function toggleLinks(btn) {
     }
 }
 
-        const search = document.getElementById("search")
-        const projects = document.querySelectorAll(".project")
 
-        projects.forEach(p => {
-            p.dataset.original = p.innerHTML
-        })
+// ==========================
+// SEARCH SYSTEM (UPDATED)
+// ==========================
+const search = document.getElementById("search")
 
-        search.addEventListener("input", () => {
+search.addEventListener("input", () => {
 
     const term = search.value.toLowerCase()
-    const projects = document.querySelectorAll(".project") // <-- moved here
+
+    // IMPORTANT: re-query every time (includes loaded links)
+    const projects = document.querySelectorAll(".project")
 
     projects.forEach(p => {
-        p.innerHTML = p.dataset.original || p.innerHTML
-        p.dataset.original = p.innerHTML
+
+        // store original only once
+        if (!p.dataset.original) {
+            p.dataset.original = p.innerHTML
+        } else {
+            p.innerHTML = p.dataset.original
+        }
 
         if (term === "") {
             p.style.display = "flex"
@@ -406,40 +414,43 @@ async function toggleLinks(btn) {
     })
 })
 
-        function highlight(element, term) {
 
-            const walker = document.createTreeWalker(
-                element,
-                NodeFilter.SHOW_TEXT,
-                null,
-                false
-            )
+// ==========================
+// HIGHLIGHT FUNCTION
+// ==========================
+function highlight(element, term) {
 
-            let node
+    const walker = document.createTreeWalker(
+        element,
+        NodeFilter.SHOW_TEXT,
+        null,
+        false
+    )
 
-            while (node = walker.nextNode()) {
+    let node
 
-                const text = node.nodeValue.toLowerCase()
-                const index = text.indexOf(term)
+    while (node = walker.nextNode()) {
 
-                if (index >= 0) {
+        const text = node.nodeValue.toLowerCase()
+        const index = text.indexOf(term)
 
-                    const span = document.createElement("span")
+        if (index >= 0) {
 
-                    span.innerHTML =
-                        node.nodeValue.slice(0, index) +
-                        "<mark>" +
-                        node.nodeValue.slice(index, index + term.length) +
-                        "</mark>" +
-                        node.nodeValue.slice(index + term.length)
+            const span = document.createElement("span")
 
-                    node.replaceWith(span)
+            span.innerHTML =
+                node.nodeValue.slice(0, index) +
+                "<mark>" +
+                node.nodeValue.slice(index, index + term.length) +
+                "</mark>" +
+                node.nodeValue.slice(index + term.length)
 
-                }
-
-            }
-
+            node.replaceWith(span)
         }
+    }
+}
+
+</script>
 
     </script>
 
