@@ -1,16 +1,16 @@
-<span style="color: Black; font-weight: bold;">By @Shaoju</span>
+By @Shaoju
 Loader's Number analysis by Shaoju : https://docs.google.com/spreadsheets/d/1ilvsLzJ2R5P2Clo4UF2SbFNEYbBKdy3PEwEz14qJqSo/edit?usp=drivesdk (Loader's number definition : https://googology.fandom.com/wiki/Loader's_number)  
 
-<span style="color: Black; font-weight: bold;">By @naruyoko</span>
+By @naruyoko
 Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
 
-<span style="color: Black; font-weight: bold;">By @solverseek666</span>
+By @solverseek666
 Number list by @solverseek666 https://solverseek666.github.io/googology-website/ and https://solverseek666.github.io/googology-website/CLoTLN/
 Stability analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1kR4fikKWPSwCd_1WwbNyhiZnKMBLp3B0x7ju8pjtb2o/edit?usp=sharing
 SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1dF_fAWOe8qRK17tueuDX4hxJr7nkZjCvubhiox2iqJA/edit?usp=sharing
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 
-<span style="color: Black; font-weight: bold;">By @rngdelak</span>
+By @rngdelak
 FGH(Fast growing hierachy) LNGI by @rngdelak : https://rngdelak.github.io/FGHLngi/
 FGH(Fast growing hierachy) analyzer by @rngdelak : https://rngdelak.github.io/FGHanalyzer/
 Bird Linear Array Notation Comparator by @rngdelak : https://rngdelak.github.io/godgahnum/
