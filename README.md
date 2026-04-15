@@ -15,3 +15,5 @@ FGH(Fast growing hierachy) LNGI by @rngdelak : https://rngdelak.github.io/FGHLng
 FGH(Fast growing hierachy) analyzer by @rngdelak : https://rngdelak.github.io/FGHanalyzer/
 Bird Linear Array Notation Comparator by @rngdelak : https://rngdelak.github.io/godgahnum/
 
+[By @dslamin97]
+1.2 Millons number written in series Bird Array Notation LNGI (youtube : https://youtube.com/playlist?list=PLUp0pAa9wfYBpZv4tb58qPm_7XLvkzdOY&si=Phv94bV6D3JIIKZv) : https://drive.google.com/file/d/1k3zSUTxmBI7yuA6wsHYPqCNh4_hNe_ui/view?usp=drive_web
