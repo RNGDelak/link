@@ -301,10 +301,13 @@
 
 <div class="section">
     <h2>See more!</h2>
-    
-    <p>I’ve also created a collection of extended links—some are still in development and advances one too!</p>
-    <p>Because they are many , i decided to add them into a .md file so update, organize, and expand is easy without risking errors in the HTML.</p>
-    <p>If you’d like to explore further, you can check it out here: <a href="https://github.com/RNGDelak/link/blob/main/README.md" target="_blank">README.md</a>.</p>
+
+    <p>
+        This section has a bunch of links from many topics, so I decided to hide it:
+        <a href="#" onclick="toggleLinks()">[show all links]</a>
+    </p>
+
+    <div id="moreLinks" style="display:none; margin-top:15px;"></div>
 </div>
 
 <div class="section">
@@ -320,6 +323,42 @@
 
 
     <script>
+    
+async function toggleLinks() {
+    const box = document.getElementById("moreLinks")
+
+    if (box.style.display === "none") {
+        box.style.display = "block"
+
+        if (!box.dataset.loaded) {
+            box.innerHTML = "Loading..."
+
+            try {
+                const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
+                const text = await res.text()
+
+                // Convert URLs → clickable links
+                let html = text
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(
+                        /(https?:\/\/[^\s]+)/g,
+                        url => `<a href="${url}" target="_blank">${url}</a>`
+                    )
+                    .replace(/\n/g, "<br>")
+
+                box.innerHTML = html
+                box.dataset.loaded = "true"
+
+            } catch (err) {
+                box.innerHTML = "Failed to load content."
+            }
+        }
+
+    } else {
+        box.style.display = "none"
+    }
+}
 
         const search = document.getElementById("search")
         const projects = document.querySelectorAll(".project")
