@@ -304,9 +304,7 @@
 
     <p>
         This section has a bunch of links from many topics, so I decided to hide it:
-        <button id="toggleBtn" onclick="toggleLinks(this)">
-            Show all links
-        </button>
+        <a href="#" onclick="toggleLinks()">[show all links]</a>
     </p>
 
     <div id="moreLinks" style="display:none; margin-top:15px;"></div>
@@ -323,19 +321,15 @@
     <p>I originally considered adding a ranking system, but decided against it—every project here is equally interesting.</p>
 </div>  
 
-<script>
 
-// ==========================
-// TOGGLE + LOAD LINKS
-// ==========================
-async function toggleLinks(btn) {
+    <script>
+    
+async function toggleLinks() {
     const box = document.getElementById("moreLinks")
 
     if (box.style.display === "none") {
         box.style.display = "block"
-        btn.textContent = "Hide links"
 
-        // Load only once
         if (!box.dataset.loaded) {
             box.innerHTML = "Loading..."
 
@@ -343,7 +337,7 @@ async function toggleLinks(btn) {
                 const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
                 const text = await res.text()
 
-                // Escape HTML + convert URLs → links
+                // Convert URLs → clickable links
                 let html = text
                     .replace(/</g, "&lt;")
                     .replace(/>/g, "&gt;")
@@ -363,87 +357,79 @@ async function toggleLinks(btn) {
 
     } else {
         box.style.display = "none"
-        btn.textContent = "Show all links"
     }
 }
 
+        const search = document.getElementById("search")
+        const projects = document.querySelectorAll(".project")
 
-// ==========================
-// SEARCH SYSTEM (UPDATED)
-// ==========================
-const search = document.getElementById("search")
-
-search.addEventListener("input", () => {
-
-    const term = search.value.toLowerCase()
-
-    // IMPORTANT: re-query every time (includes loaded links)
-    const projects = document.querySelectorAll(".project")
-
-    projects.forEach(p => {
-
-        // store original only once
-        if (!p.dataset.original) {
+        projects.forEach(p => {
             p.dataset.original = p.innerHTML
-        } else {
-            p.innerHTML = p.dataset.original
+        })
+
+        search.addEventListener("input", () => {
+
+            const term = search.value.toLowerCase()
+
+            projects.forEach(p => {
+
+                p.innerHTML = p.dataset.original
+
+                if (term === "") {
+                    p.style.display = "flex"
+                    return
+                }
+
+                const text = p.innerText.toLowerCase()
+
+                if (text.includes(term)) {
+                    p.style.display = "flex"
+                    highlight(p, term)
+                }
+                else {
+                    p.style.display = "none"
+                }
+
+            })
+
+        })
+
+        function highlight(element, term) {
+
+            const walker = document.createTreeWalker(
+                element,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            )
+
+            let node
+
+            while (node = walker.nextNode()) {
+
+                const text = node.nodeValue.toLowerCase()
+                const index = text.indexOf(term)
+
+                if (index >= 0) {
+
+                    const span = document.createElement("span")
+
+                    span.innerHTML =
+                        node.nodeValue.slice(0, index) +
+                        "<mark>" +
+                        node.nodeValue.slice(index, index + term.length) +
+                        "</mark>" +
+                        node.nodeValue.slice(index + term.length)
+
+                    node.replaceWith(span)
+
+                }
+
+            }
+
         }
 
-        if (term === "") {
-            p.style.display = "flex"
-            return
-        }
-
-        const text = p.innerText.toLowerCase()
-
-        if (text.includes(term)) {
-            p.style.display = "flex"
-            highlight(p, term)
-        } else {
-            p.style.display = "none"
-        }
-    })
-})
-
-
-// ==========================
-// HIGHLIGHT FUNCTION
-// ==========================
-function highlight(element, term) {
-
-    const walker = document.createTreeWalker(
-        element,
-        NodeFilter.SHOW_TEXT,
-        null,
-        false
-    )
-
-    let node
-
-    while (node = walker.nextNode()) {
-
-        const text = node.nodeValue.toLowerCase()
-        const index = text.indexOf(term)
-
-        if (index >= 0) {
-
-            const span = document.createElement("span")
-
-            span.innerHTML =
-                node.nodeValue.slice(0, index) +
-                "<mark>" +
-                node.nodeValue.slice(index, index + term.length) +
-                "</mark>" +
-                node.nodeValue.slice(index + term.length)
-
-            node.replaceWith(span)
-        }
-    }
-}
-
-</script>
-
-
+    </script>
 
 </body>
 
