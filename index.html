@@ -383,30 +383,28 @@ async function toggleLinks(btn) {
 
         search.addEventListener("input", () => {
 
-            const term = search.value.toLowerCase()
+    const term = search.value.toLowerCase()
+    const projects = document.querySelectorAll(".project") // <-- moved here
 
-            projects.forEach(p => {
+    projects.forEach(p => {
+        p.innerHTML = p.dataset.original || p.innerHTML
+        p.dataset.original = p.innerHTML
 
-                p.innerHTML = p.dataset.original
+        if (term === "") {
+            p.style.display = "flex"
+            return
+        }
 
-                if (term === "") {
-                    p.style.display = "flex"
-                    return
-                }
+        const text = p.innerText.toLowerCase()
 
-                const text = p.innerText.toLowerCase()
-
-                if (text.includes(term)) {
-                    p.style.display = "flex"
-                    highlight(p, term)
-                }
-                else {
-                    p.style.display = "none"
-                }
-
-            })
-
-        })
+        if (text.includes(term)) {
+            p.style.display = "flex"
+            highlight(p, term)
+        } else {
+            p.style.display = "none"
+        }
+    })
+})
 
         function highlight(element, term) {
 
