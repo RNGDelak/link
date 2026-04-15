@@ -340,30 +340,14 @@ async function toggleLinks(btn) {
                 const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
                 const text = await res.text()
 
-const lines = text.split("\n").filter(line => line.trim() !== "")
-
-let html = lines.map(line => {
-
-    // escape HTML
-    let safe = line
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-
-    // convert URLs to links
-    safe = safe.replace(
-        /(https?:\/\/[^\s]+)/g,
-        url => `<a target="_blank" href="${url}">${url}</a>`
-    )
-
-    // wrap into project block
-    return `
-    <div class="project">
-        <div class="project-info">
-            ${safe}
-        </div>
-    </div>
-    `
-}).join("")
+                let html = text
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(
+                        /(https?:\/\/[^\s]+)/g,
+                        url => `<a href="${url}" target="_blank">${url}</a>`
+                    )
+                    .replace(/\n/g, "<br>")
 
                 box.innerHTML = html
                 box.dataset.loaded = "true"
