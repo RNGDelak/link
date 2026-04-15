@@ -303,8 +303,8 @@
     <h2>See more!</h2>
 
     <p>
-        This section has a bunch of links from many topics, so I decided to hide it:
-        <a href="#" onclick="toggleLinks()">[show all links]</a>
+        This section has a bunch of links from many topics, so I decided to hide it : 
+        <a href="javascript:void(0)" id="toggleBtn" onclick="toggleLinks(this)"> [show all links]</a>
     </p>
 
     <div id="moreLinks" style="display:none; margin-top:15px;"></div>
@@ -324,11 +324,12 @@
 
     <script>
     
-async function toggleLinks() {
+async function toggleLinks(btn) {
     const box = document.getElementById("moreLinks")
 
     if (box.style.display === "none") {
         box.style.display = "block"
+        btn.textContent = "[hide all links]"
 
         if (!box.dataset.loaded) {
             box.innerHTML = "Loading..."
@@ -337,7 +338,6 @@ async function toggleLinks() {
                 const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
                 const text = await res.text()
 
-                // Convert URLs → clickable links
                 let html = text
                     .replace(/</g, "&lt;")
                     .replace(/>/g, "&gt;")
@@ -345,7 +345,20 @@ async function toggleLinks() {
                         /(https?:\/\/[^\s]+)/g,
                         url => `<a href="${url}" target="_blank">${url}</a>`
                     )
-                    .replace(/\n/g, "<br>")
+                    .split("\n").map(line => {
+    if (!line.trim()) return ""
+
+    return `
+        <div class="project">
+            <div class="project-info">
+                ${line.replace(
+                    /(https?:\/\/[^\s]+)/g,
+                    url => `<a href="${url}" target="_blank">${url}</a>`
+                )}
+            </div>
+        </div>
+    `
+}).join("")
 
                 box.innerHTML = html
                 box.dataset.loaded = "true"
@@ -357,6 +370,7 @@ async function toggleLinks() {
 
     } else {
         box.style.display = "none"
+        btn.textContent = "[show all links]"
     }
 }
 
