@@ -21,7 +21,7 @@ Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l
 [By Me]
 FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
 FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyzer/
-Bird Linear Array Notation Comparator by @rngdelak : https://rngdelak.github.io/godgahnum/
+Bird Linear Array Notation Comparator by Me : https://rngdelak.github.io/godgahnum/
 
 [By @dshamlin98]
 1.2 Millons number written in series Bird Array Notation LNGI by @dshamlin98 (youtube : https://youtube.com/playlist?list=PLUp0pAa9wfYBpZv4tb58qPm_7XLvkzdOY&si=Phv94bV6D3JIIKZv) : https://drive.google.com/file/d/1k3zSUTxmBI7yuA6wsHYPqCNh4_hNe_ui/view?usp=drive_web
