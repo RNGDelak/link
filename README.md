@@ -32,3 +32,5 @@ Sequence system explaination by @catisfluffy : https://docs.google.com/document/
 
 [By @hemisemidemipresent]
 The book explaining ordinals and ocfs by @hemisemidemipresent : https://github.com/hemisemidemipresent/book/
+
+[By @lllllllllwith10ls] : https://lllllllllwith10ls.github.io/website/home.html
