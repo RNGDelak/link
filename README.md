@@ -27,3 +27,6 @@ Bird Linear Array Notation Comparator by @rngdelak : https://rngdelak.github.io/
 
 [By @catisfluffy]
 Sequence system explaination by @catisfluffy : https://docs.google.com/document/d/1QP7Gde6PBNkFboJv9J19KnY8Y4RUoMzaIh5agQDpJzI/edit?tab=t.0
+
+[By @hemisemidemipresent]
+The book explaining ordinals and ocfs by @hemisemidemipresent : https://github.com/hemisemidemipresent/book/
