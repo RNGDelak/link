@@ -2,7 +2,7 @@
 Loader's Number analysis by @Shaoju : https://docs.google.com/spreadsheets/d/1ilvsLzJ2R5P2Clo4UF2SbFNEYbBKdy3PEwEz14qJqSo/edit?usp=drivesdk (Loader's number definition : https://googology.fandom.com/wiki/Loader's_number)  
 aSAN analysis sheet by @Shaoju : https://docs.google.com/spreadsheets/d/10-bmqvKUQZyp70Hx7qlRc91uDbTLvNwJGh3e-cFN7GE/edit?gid=0#gid=0
 
-[By @solarzone1010] : 
+[By @solarzone1010] : https://solarzone1010.github.io
 BEAF & EBOCF analysis by @solarzone1010 : https://docs.google.com/spreadsheets/d/1-Lrqty2Ep8XB2KOxJn5fppEZ0F15zmPWmuhamOWBdXU/edit?gid=55640559#gid=55640559
 
 [By @azertywastaken]
