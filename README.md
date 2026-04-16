@@ -24,3 +24,6 @@ Bird Linear Array Notation Comparator by @rngdelak : https://rngdelak.github.io/
 [By @dshamlin98]
 1.2 Millons number written in series Bird Array Notation LNGI by @dshamlin98 (youtube : https://youtube.com/playlist?list=PLUp0pAa9wfYBpZv4tb58qPm_7XLvkzdOY&si=Phv94bV6D3JIIKZv) : https://drive.google.com/file/d/1k3zSUTxmBI7yuA6wsHYPqCNh4_hNe_ui/view?usp=drive_web
 ψΩ OCF analysis by @dshamlin98 : https://docs.google.com/spreadsheets/d/1wQ2LCbe-TlDbmL0SRAMY2qLpMh_0pQuLJxJcKKrjSHM/edit?usp=sharing
+
+[By @catisfluffy]
+Sequence system explaination by @catisfluffy : https://docs.google.com/document/d/1QP7Gde6PBNkFboJv9J19KnY8Y4RUoMzaIh5agQDpJzI/edit?tab=t.0
