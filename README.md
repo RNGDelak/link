@@ -3,7 +3,7 @@ Loader's Number analysis by @Shaoju : https://docs.google.com/spreadsheets/d/1il
 aSAN analysis sheet by @Shaoju : https://docs.google.com/spreadsheets/d/10-bmqvKUQZyp70Hx7qlRc91uDbTLvNwJGh3e-cFN7GE/edit?gid=0#gid=0
 
 [By @solarzone1010] : https://solarzone1010.github.io
-Multiple notations (BEAF, SSS, BMS, ...) analysis by @solarzone1010 : https://docs.google.com/spreadsheets/d/1-Lrqty2Ep8XB2KOxJn5fppEZ0F15zmPWmuhamOWBdXU/edit?gid=55640559#gid=55640559
+Multiple notations (BEAF, SSS, BMS, EBOCF ,IROCF , EBO,...) analysis by @solarzone1010 : https://docs.google.com/spreadsheets/d/1-Lrqty2Ep8XB2KOxJn5fppEZ0F15zmPWmuhamOWBdXU/edit?gid=55640559#gid=55640559
 
 [By @azertywastaken]
 Azerty LNGI sheet by @azertywastaken : https://docs.google.com/spreadsheets/d/1svVG0PeHin4Lh4ZvuxBvHysZFjTffZHB3118uiDnKI0/edit?usp=sharing
