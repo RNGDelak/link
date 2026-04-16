@@ -18,9 +18,9 @@ SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l6sw7VJPIuMgg5mPEKXHNdKhS_WoZ_qOgphfn4cj0c/edit?usp=sharing
 
-[By @rngdelak]
-FGH(Fast growing hierachy) LNGI by @rngdelak : https://rngdelak.github.io/FGHLngi/
-FGH(Fast growing hierachy) analyzer by @rngdelak : https://rngdelak.github.io/FGHanalyzer/
+[By Me]
+FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
+FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyzer/
 Bird Linear Array Notation Comparator by @rngdelak : https://rngdelak.github.io/godgahnum/
 
 [By @dshamlin98]
