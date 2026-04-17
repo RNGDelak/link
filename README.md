@@ -24,7 +24,7 @@ FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyz
 Bird Linear Array Notation Comparator by Me : https://rngdelak.github.io/godgahnum/
 
 [By @YT-AleX-1337]
-A python programe lists transfinite ordinals in the BMS notation in a meaningful way by @YT-AleX-1337 : http://github.com/YT-AleX-1337/BMS-Ruler
+A python programe that lists transfinite ordinals in the BMS notation in a meaningful way by @YT-AleX-1337 : http://github.com/YT-AleX-1337/BMS-Ruler
 
 [By @dshamlin98]
 1.2 Millons number written in series Bird Array Notation LNGI by @dshamlin98 (youtube : https://youtube.com/playlist?list=PLUp0pAa9wfYBpZv4tb58qPm_7XLvkzdOY&si=Phv94bV6D3JIIKZv) : https://drive.google.com/file/d/1k3zSUTxmBI7yuA6wsHYPqCNh4_hNe_ui/view?usp=drive_web
