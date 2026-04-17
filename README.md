@@ -18,7 +18,6 @@ SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l6sw7VJPIuMgg5mPEKXHNdKhS_WoZ_qOgphfn4cj0c/edit?usp=sharing
 
-[By Me]
 
 [By @dshamlin98]
 1.2 Millons number written in series Bird Array Notation LNGI by @dshamlin98 (youtube : https://youtube.com/playlist?list=PLUp0pAa9wfYBpZv4tb58qPm_7XLvkzdOY&si=Phv94bV6D3JIIKZv) : https://drive.google.com/file/d/1k3zSUTxmBI7yuA6wsHYPqCNh4_hNe_ui/view?usp=drive_web
@@ -33,6 +32,10 @@ The book explaining ordinals and ocfs by @hemisemidemipresent : https://github.c
 [Notation / Ordinal Analyzer]
 FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyzer/
 
+[Programs]
+Bird Linear Array Notation Comparator by Me : https://rngdelak.github.io/godgahnum/
+
+[Sheet / list analysis]
 
 
 [LNGI : Large number gradually increasing]
