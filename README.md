@@ -11,13 +11,20 @@ Azerty LNGI sheet by @azertywastaken : https://docs.google.com/spreadsheets/d/1s
 [By @naruyoko]
 Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
 
-[By @solverseek666]
-Number list by @solverseek666 https://solverseek666.github.io/googology-website/ and https://solverseek666.github.io/googology-website/CLoTLN/
+[By @solverseek666] : https://solverseek666.github.io/googology-website/
+Number & Ordinal Number list by @solverseek666 https://solverseek666.github.io/googology-website/CLoTLO/ and https://solverseek666.github.io/googology-website/CLoTLN/
 Stability analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1kR4fikKWPSwCd_1WwbNyhiZnKMBLp3B0x7ju8pjtb2o/edit?usp=sharing
 SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1dF_fAWOe8qRK17tueuDX4hxJr7nkZjCvubhiox2iqJA/edit?usp=sharing
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l6sw7VJPIuMgg5mPEKXHNdKhS_WoZ_qOgphfn4cj0c/edit?usp=sharing
 
+[By Me]
+FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
+FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyzer/
+Bird Linear Array Notation Comparator by Me : https://rngdelak.github.io/godgahnum/
+
+[By @YT-AleX-1337]
+A python programe lists transfinite ordinals in the BMS notation in a meaningful way by @YT-AleX-1337 : http://github.com/YT-AleX-1337/BMS-Ruler
 
 [By @dshamlin98]
 1.2 Millons number written in series Bird Array Notation LNGI by @dshamlin98 (youtube : https://youtube.com/playlist?list=PLUp0pAa9wfYBpZv4tb58qPm_7XLvkzdOY&si=Phv94bV6D3JIIKZv) : https://drive.google.com/file/d/1k3zSUTxmBI7yuA6wsHYPqCNh4_hNe_ui/view?usp=drive_web
@@ -28,16 +35,3 @@ Sequence system explaination by @catisfluffy : https://docs.google.com/document/
 
 [By @hemisemidemipresent]
 The book explaining ordinals and ocfs by @hemisemidemipresent : https://github.com/hemisemidemipresent/book/
-
-[Notation / Ordinal Analyzer]
-FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyzer/
-
-[Programs]
-Bird Linear Array Notation Comparator by Me : https://rngdelak.github.io/godgahnum/
-
-[Sheet / list analysis]
-
-
-[LNGI : Large number gradually increasing]
-FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
-
