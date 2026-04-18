@@ -12,7 +12,8 @@ Azerty LNGI sheet by @azertywastaken : https://docs.google.com/spreadsheets/d/1s
 Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
 
 [By @solverseek666] : https://solverseek666.github.io/googology-website/
-Number & Ordinal Number list by @solverseek666 https://solverseek666.github.io/googology-website/CLoTLO/ and https://solverseek666.github.io/googology-website/CLoTLN/
+Tremedously large Number list by @solverseek666 : https://solverseek666.github.io/googology-website/CLoTLN/
+Tremedously large Ordinal Number list by @solverseek666 : https://solverseek666.github.io/googology-website/CLoTLO/
 Stability analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1kR4fikKWPSwCd_1WwbNyhiZnKMBLp3B0x7ju8pjtb2o/edit?usp=sharing
 SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1dF_fAWOe8qRK17tueuDX4hxJr7nkZjCvubhiox2iqJA/edit?usp=sharing
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
