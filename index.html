@@ -323,117 +323,118 @@
     <p>I originally considered adding a ranking system, but decided against it—every project here is equally interesting.</p>
 </div>  
 
+<script>
 
-    <script>
-    
-async function toggleLinks(btn) {
+document.addEventListener("DOMContentLoaded", async () => {
+
+    const box = document.getElementById("moreLinks")
+
+    try {
+        const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
+        const text = await res.text()
+
+        let html = text
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/\[([^\]]+)\]/g, "<b>$1</b>")
+            .replace(
+                /(https?:\/\/[^\s]+)/g,
+                url => `<a href="${url}" target="_blank">${url}</a>`
+            )
+            .replace(/\n/g, "<br>")
+
+        box.innerHTML = html
+        box.dataset.loaded = "true"
+
+    } catch {
+        box.innerHTML = "Failed to load content."
+    }
+
+})
+
+function toggleLinks(btn) {
+
     const box = document.getElementById("moreLinks")
 
     if (box.style.display === "none") {
         box.style.display = "block"
         btn.textContent = "[hide all links]"
-
-        if (!box.dataset.loaded) {
-            box.innerHTML = "Loading..."
-
-            try {
-                const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
-                const text = await res.text()
-
-                let html = text
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/\[([^\]]+)\]/g, "<b>$1</b>") // ← ADD THIS LINE
-    .replace(
-        /(https?:\/\/[^\s]+)/g,
-        url => `<a href="${url}" target="_blank">${url}</a>`
-    )
-    .replace(/\n/g, "<br>")
-
-                box.innerHTML = html
-                box.dataset.loaded = "true"
-
-            } catch (err) {
-                box.innerHTML = "Failed to load content."
-            }
-        }
-
     } else {
         box.style.display = "none"
         btn.textContent = "[show all links]"
     }
 }
 
-        const search = document.getElementById("search")
-        const projects = document.querySelectorAll(".project")
+const search = document.getElementById("search")
 
-        projects.forEach(p => {
+search.addEventListener("input", () => {
+
+    const term = search.value.toLowerCase()
+
+    // include BOTH normal projects and "See more"
+    const items = document.querySelectorAll(".project, #moreLinks")
+
+    items.forEach(p => {
+
+        // store original content once
+        if (!p.dataset.original) {
             p.dataset.original = p.innerHTML
-        })
-
-        search.addEventListener("input", () => {
-
-            const term = search.value.toLowerCase()
-
-            projects.forEach(p => {
-
-                p.innerHTML = p.dataset.original
-
-                if (term === "") {
-                    p.style.display = "flex"
-                    return
-                }
-
-                const text = p.innerText.toLowerCase()
-
-                if (text.includes(term)) {
-                    p.style.display = "flex"
-                    highlight(p, term)
-                }
-                else {
-                    p.style.display = "none"
-                }
-
-            })
-
-        })
-
-        function highlight(element, term) {
-
-            const walker = document.createTreeWalker(
-                element,
-                NodeFilter.SHOW_TEXT,
-                null,
-                false
-            )
-
-            let node
-
-            while (node = walker.nextNode()) {
-
-                const text = node.nodeValue.toLowerCase()
-                const index = text.indexOf(term)
-
-                if (index >= 0) {
-
-                    const span = document.createElement("span")
-
-                    span.innerHTML =
-                        node.nodeValue.slice(0, index) +
-                        "<mark>" +
-                        node.nodeValue.slice(index, index + term.length) +
-                        "</mark>" +
-                        node.nodeValue.slice(index + term.length)
-
-                    node.replaceWith(span)
-
-                }
-
-            }
-
         }
 
-    </script>
+        // reset content before highlighting again
+        p.innerHTML = p.dataset.original
+
+        if (term === "") {
+            p.style.display = ""
+            return
+        }
+
+        const text = p.innerText.toLowerCase()
+
+        if (text.includes(term)) {
+            p.style.display = ""
+            highlight(p, term)
+        } else {
+            p.style.display = "none"
+        }
+
+    })
+
+})
+
+function highlight(element, term) {
+
+    const walker = document.createTreeWalker(
+        element,
+        NodeFilter.SHOW_TEXT,
+        null,
+        false
+    )
+
+    let node
+
+    while (node = walker.nextNode()) {
+
+        const text = node.nodeValue.toLowerCase()
+        const index = text.indexOf(term)
+
+        if (index >= 0) {
+
+            const span = document.createElement("span")
+
+            span.innerHTML =
+                node.nodeValue.slice(0, index) +
+                "<mark>" +
+                node.nodeValue.slice(index, index + term.length) +
+                "</mark>" +
+                node.nodeValue.slice(index + term.length)
+
+            node.replaceWith(span)
+        }
+    }
+}
+
+</script>
 
 </body>
 
