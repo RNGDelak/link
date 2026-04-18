@@ -325,6 +325,7 @@
 
 <script>
 
+// ===== PRELOAD "SEE MORE" AS PROJECTS =====
 document.addEventListener("DOMContentLoaded", async () => {
 
     const box = document.getElementById("moreLinks")
@@ -333,18 +334,37 @@ document.addEventListener("DOMContentLoaded", async () => {
         const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
         const text = await res.text()
 
-        let html = text
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/\[([^\]]+)\]/g, "<b>$1</b>")
-            .replace(
-                /(https?:\/\/[^\s]+)/g,
-                url => `<a href="${url}" target="_blank">${url}</a>`
-            )
-            .replace(/\n/g, "<br>")
+        const lines = text.split("\n")
 
-        box.innerHTML = html
-        box.dataset.loaded = "true"
+        box.innerHTML = ""
+
+        lines.forEach(line => {
+
+            if (line.trim() === "") return
+
+            const project = document.createElement("div")
+            project.className = "project"
+
+            const info = document.createElement("div")
+            info.className = "project-info"
+
+            info.innerHTML = line
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/\[([^\]]+)\]/g, "<b>$1</b>")
+                .replace(
+                    /(https?:\/\/[^\s]+)/g,
+                    url => `<a href="${url}" target="_blank">${url}</a>`
+                )
+
+            project.appendChild(info)
+
+            // store original for highlight reset
+            project.dataset.original = project.innerHTML
+
+            box.appendChild(project)
+
+        })
 
     } catch {
         box.innerHTML = "Failed to load content."
@@ -352,6 +372,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 })
 
+
+// ===== TOGGLE SHOW / HIDE =====
 function toggleLinks(btn) {
 
     const box = document.getElementById("moreLinks")
@@ -365,34 +387,34 @@ function toggleLinks(btn) {
     }
 }
 
+
+// ===== SEARCH =====
 const search = document.getElementById("search")
+
+// store original content for existing projects
+document.querySelectorAll(".project").forEach(p => {
+    p.dataset.original = p.innerHTML
+})
 
 search.addEventListener("input", () => {
 
     const term = search.value.toLowerCase()
+    const projects = document.querySelectorAll(".project")
 
-    // include BOTH normal projects and "See more"
-    const items = document.querySelectorAll(".project, #moreLinks")
+    projects.forEach(p => {
 
-    items.forEach(p => {
-
-        // store original content once
-        if (!p.dataset.original) {
-            p.dataset.original = p.innerHTML
-        }
-
-        // reset content before highlighting again
+        // reset content before re-highlighting
         p.innerHTML = p.dataset.original
 
         if (term === "") {
-            p.style.display = ""
+            p.style.display = "flex"
             return
         }
 
         const text = p.innerText.toLowerCase()
 
         if (text.includes(term)) {
-            p.style.display = ""
+            p.style.display = "flex"
             highlight(p, term)
         } else {
             p.style.display = "none"
@@ -402,6 +424,8 @@ search.addEventListener("input", () => {
 
 })
 
+
+// ===== HIGHLIGHT FUNCTION =====
 function highlight(element, term) {
 
     const walker = document.createTreeWalker(
