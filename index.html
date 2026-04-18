@@ -73,7 +73,7 @@
 <h1>Friendly Googology Links</h1>
 
 <p class="subtitle">
-    <img src="https://hitscounter.dev/api/hit?url=https://rngdelak.github.io/link&label=Total%20Accesses%20:%20&icon=eye&color=Red" /><br>
+    <div id="counter"></div><br>
     This site is a collection of interesting googology projects (including some of my own).<br>
     <span style="color: red; font-weight: bold;">IMPORTANT : </span> <a target="_blank" href="https://forms.gle/AazLepRLboZNwiBS7">Submit project form</a> and <a target="_blank" href="https://forms.gle/iqoBbRkW4tFWgVF36">Report Bug form</a><br>
     <span style="color: Blue; font-weight: bold;">If you’re new, start by exploring the tabs above. When you’re ready to go deeper, check out the ‘See More’ section!</span>
@@ -324,6 +324,27 @@
 </div>  
 
 <script>
+    
+let cachedSvg = null;
+
+async function getHitsSvg() {
+    if (cachedSvg) return cachedSvg;
+
+    const res = await fetch(
+        "https://hitscounter.dev/api/hit?url=https://rngdelak.github.io/link&label=Total%20Accesses%20:%20&icon=eye&color=Red"
+    );
+
+    const svg = await res.text();
+    cachedSvg = svg; // cache for future use
+
+    return svg;
+}
+
+const container = document.getElementById("counter");
+
+getHitsSvg().then(svg => {
+    container.innerHTML = svg;
+});    
 
 // ===== PRELOAD "SEE MORE" AS PROJECTS =====
 document.addEventListener("DOMContentLoaded", async () => {
