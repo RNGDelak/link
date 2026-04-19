@@ -45,3 +45,6 @@ Laver table yarn proff : https://arxiv.org/pdf/2501.06733
 
 [Busy Beaver Challenge onto googology] : https://wiki.bbchallenge.org/
 Busy Beaver for Lambda caculus : https://wiki.bbchallenge.org/wiki/Busy_Beaver_for_lambda_calculus
+
+[By @mrredsharkfan]
+Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-Number-Go-Up-Reborn/main
