@@ -42,5 +42,5 @@ The book explaining ordinals and ocfs by @hemisemidemipresent : https://github.c
 [By Renrui Qi]
 Laver table yarn proff : https://arxiv.org/pdf/2501.06733
 
-[By Busy Beaver] : https://wiki.bbchallenge.org/
+[Busy Beaver Challenge onto googology] : https://wiki.bbchallenge.org/
 Busy Beaver for Lambda caculus : https://wiki.bbchallenge.org/wiki/Busy_Beaver_for_lambda_calculus
