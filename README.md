@@ -4,6 +4,7 @@ aSAN analysis sheet by @Shaoju : https://docs.google.com/spreadsheets/d/10-bmqvK
 
 [By @solarzone1010] : https://solarzone1010.github.io
 Multiple notations (BEAF, SSS, BMS, EBOCF, IROCF, EBO,...) analysis by @solarzone1010 : https://docs.google.com/spreadsheets/d/1-Lrqty2Ep8XB2KOxJn5fppEZ0F15zmPWmuhamOWBdXU/edit?gid=55640559#gid=55640559
+SCAN (Sequence pair Collapsing Array Notation) definition by @solarzone1010 : https://docs.google.com/document/d/1CYqWxXAvRHv-LIGnUvg4572zDbMhSkcnJ3deHEBj1_U/edit?usp=sharing
 
 [By @azertywastaken]
 Azerty LNGI sheet by @azertywastaken : https://docs.google.com/spreadsheets/d/1svVG0PeHin4Lh4ZvuxBvHysZFjTffZHB3118uiDnKI0/edit?usp=sharing
@@ -18,7 +19,6 @@ Stability analysis sheet by @solverseek666 : https://docs.google.com/spreadsheet
 SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1dF_fAWOe8qRK17tueuDX4hxJr7nkZjCvubhiox2iqJA/edit?usp=sharing
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l6sw7VJPIuMgg5mPEKXHNdKhS_WoZ_qOgphfn4cj0c/edit?usp=sharing
-SCAN (Sequence pair Collapsing Array Notation) definition : https://docs.google.com/document/d/1CYqWxXAvRHv-LIGnUvg4572zDbMhSkcnJ3deHEBj1_U/edit?usp=sharing
 
 [By Me]
 FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
