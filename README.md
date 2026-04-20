@@ -48,3 +48,6 @@ Busy Beaver for Lambda caculus : https://wiki.bbchallenge.org/wiki/Busy_Beaver_f
 
 [By @mrredsharkfan]
 Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-Number-Go-Up-Reborn/main
+
+[By @log] : http://log.chez.com/
+Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.html
