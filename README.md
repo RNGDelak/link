@@ -22,6 +22,7 @@ Stability analysis sheet by @solverseek666 : https://docs.google.com/spreadsheet
 SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1dF_fAWOe8qRK17tueuDX4hxJr7nkZjCvubhiox2iqJA/edit?usp=sharing
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l6sw7VJPIuMgg5mPEKXHNdKhS_WoZ_qOgphfn4cj0c/edit?usp=sharing
+Fundamental Matrix System definition and Analysis by @solverseek666 (in progess and expected to be way stronger than FOS12) : https://docs.google.com/spreadsheets/d/11qE6zMiHjjRsbdKCpBOMNHmD6VOAjmTnfip6FW6x0-k/edit?usp=drivesdk
 
 [By Me]
 FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
