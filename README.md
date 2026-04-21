@@ -1,3 +1,6 @@
+[By blueted2824]
+BMS explanation on youtube : https://youtu.be/-266RKSuwes?si=O7BRJPGPm-t3gN_U
+
 [By @Shaoju]
 Loader's Number analysis by @Shaoju : https://docs.google.com/spreadsheets/d/1ilvsLzJ2R5P2Clo4UF2SbFNEYbBKdy3PEwEz14qJqSo/edit?usp=drivesdk (Loader's number definition : https://googology.fandom.com/wiki/Loader's_number)  
 aSAN analysis sheet by @Shaoju : https://docs.google.com/spreadsheets/d/10-bmqvKUQZyp70Hx7qlRc91uDbTLvNwJGh3e-cFN7GE/edit?gid=0#gid=0
