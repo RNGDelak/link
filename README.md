@@ -1,4 +1,4 @@
-[By blueted2824]
+[By @blueted2824]
 BMS explanation on youtube : https://youtu.be/-266RKSuwes?si=O7BRJPGPm-t3gN_U
 
 [By @Shaoju]
