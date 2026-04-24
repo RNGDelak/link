@@ -55,3 +55,6 @@ Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-N
 
 [By @log] : http://log.chez.com/
 Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.html
+
+[=======Sheets=======]
+Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
