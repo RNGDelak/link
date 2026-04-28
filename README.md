@@ -59,6 +59,7 @@ Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.
 [=======Sheets=======]
 Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
 Collaborative number list : https://docs.google.com/spreadsheets/d/1ItJjHHBybYQIIq_SftJXVFGEdx_dZnT-ZAHY6oHbV-A/edit?gid=0#gid=0
+Vulcaniz analysis sheet : https://docs.google.com/spreadsheets/d/1hw2cAGZUgBeC4t4jsLj2ZaQdp2EWIy4_9A4MJ1bG4m4/edit?usp=drivesdk
 
 [=======Community=======]
 Mathematics sever : https://discord.gg/math
