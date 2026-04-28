@@ -57,7 +57,8 @@ Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-N
 Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.html
 
 [=======Document=======]
-Extended of Fast growing hierachy to real number : https://math.stackexchange.com/questions/3824026/whats-the-function-before-f-0x-in-fast-growing-hierarchy
+Extended of Fast growing hierachy to real number : 
+Approximation of real number implementation of FGH : https://math.stackexchange.com/questions/3824026/whats-the-function-before-f-0x-in-fast-growing-hierarchy
 
 [=======Sheets=======]
 Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
