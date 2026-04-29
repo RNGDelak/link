@@ -11,7 +11,7 @@ SCAN (Sequence pair Collapsing Array Notation) definition by @solarzone1010 : ht
 ψΩ OCF Analyzer with pretty formatting by @solarzone : https://github.com/RNGDelak/link/blob/main/Document/ordinals_psi.py
 
 [By @koteitan] : https://koteitan.github.io/
-BMS explaination by @koteitan : https://github.com/RNGDelak/link/blob/main/Document/bmsexplainedbykoteitan.pdf
+BMS explained by @koteitan : https://github.com/RNGDelak/link/blob/main/Document/bmsexplainedbykoteitan.pdf
 
 [By @azertywastaken]
 Azerty LNGI sheet by @azertywastaken : https://docs.google.com/spreadsheets/d/1svVG0PeHin4Lh4ZvuxBvHysZFjTffZHB3118uiDnKI0/edit?usp=sharing
