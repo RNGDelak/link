@@ -8,6 +8,7 @@ aSAN analysis sheet by @Shaoju : https://docs.google.com/spreadsheets/d/10-bmqvK
 [By @solarzone1010] : https://solarzone1010.github.io
 Multiple notations (BEAF, SSS, BMS, EBOCF, IROCF, EBO,...) analysis by @solarzone1010 : https://docs.google.com/spreadsheets/d/1-Lrqty2Ep8XB2KOxJn5fppEZ0F15zmPWmuhamOWBdXU/edit?gid=55640559#gid=55640559
 SCAN (Sequence pair Collapsing Array Notation) definition by @solarzone1010 : https://docs.google.com/document/d/1CYqWxXAvRHv-LIGnUvg4572zDbMhSkcnJ3deHEBj1_U/edit?usp=sharing
+ψΩ OCF Analyzer with pretty formatting by @solarzone : 
 
 [By @koteitan] : https://koteitan.github.io/
 BMS explaination by @koteitan : https://github.com/RNGDelak/link/blob/main/Document/bmsexplainedbykoteitan.pdf
@@ -60,7 +61,7 @@ Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-N
 Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.html
 
 [=======Document=======]
-Extended of Fast growing hierachy to real number and Construction of Solutions for Complex Superfunctions and Iterative Functional Equations : 
+Extended of Fast growing hierachy to real number and Construction of Solutions for Complex Superfunctions and Iterative Functional Equations : https://github.com/RNGDelak/link/blob/main/Document/Construction%20of%20Solutions%20of%20Complex%20Superfunctions%20and%20Iter%20(12).pdf
 
 [=======Sheets=======]
 Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
