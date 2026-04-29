@@ -68,6 +68,9 @@ Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spr
 Collaborative number list : https://docs.google.com/spreadsheets/d/1ItJjHHBybYQIIq_SftJXVFGEdx_dZnT-ZAHY6oHbV-A/edit?gid=0#gid=0
 Vulcaniz analysis sheet : https://docs.google.com/spreadsheets/d/1hw2cAGZUgBeC4t4jsLj2ZaQdp2EWIy4_9A4MJ1bG4m4/edit?usp=drivesdk
 
+[=======Programs=======]
+Suddan Hyper-function : https://github.com/RNGDelak/link/blob/main/Document/suddenmatrixsystem.js
+
 [=======Community=======]
 Mathematics sever : https://discord.gg/math
 
