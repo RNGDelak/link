@@ -60,7 +60,7 @@ Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-N
 Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.html
 
 [=======Document=======]
-Extended of Fast growing hierachy to real number : 
+Extended of Fast growing hierachy to real number and Construction of Solutions for Complex Superfunctions and Iterative Functional Equations : 
 
 [=======Sheets=======]
 Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
