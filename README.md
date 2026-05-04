@@ -13,7 +13,7 @@ SCAN (Sequence pair Collapsing Array Notation) definition by @solarzone1010 : ht
 [By @koteitan] : https://koteitan.github.io/
 BMS explained by @koteitan : https://github.com/RNGDelak/link/blob/main/Document/bmsexplainedbykoteitan.pdf
 
-[By @azertywastaken]
+[By @azertywastaken] : https://azertywastaken.github.io/Home/
 Azerty's LNGI sheet by : https://docs.google.com/spreadsheets/d/1svVG0PeHin4Lh4ZvuxBvHysZFjTffZHB3118uiDnKI0/edit?usp=sharing
 Azerty's Mutiplayer LNGI Sheet : https://docs.google.com/spreadsheets/d/1qvhMedjJSnRA1hW3XhzjN8EMyOOEUTNAHLVQc_DeKPs/edit?usp=drivesdk
 
