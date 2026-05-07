@@ -61,6 +61,9 @@ Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-N
 [By @log] : http://log.chez.com/
 Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.html
 
+[=======Hyperlinks=======]
+BAN Lngi posts log : https://onedrive.live.com/view.aspx?resid=B18A2D404265DD62!1238&ithint=file%2Cdocx&authkey=!ALcuydfkZZg1_0k
+
 [=======Document=======]
 Extended of Fast growing hierachy to real number and Construction of Solutions for Complex Superfunctions and Iterative Functional Equations : https://github.com/RNGDelak/link/blob/main/Document/Construction%20of%20Solutions%20of%20Complex%20Superfunctions%20and%20Iter%20(12).pdf
 
