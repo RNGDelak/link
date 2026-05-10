@@ -49,6 +49,9 @@ The book explaining ordinals and ocfs by @hemisemidemipresent : https://github.c
 
 [By @lllllllllwith10ls] : https://lllllllllwith10ls.github.io/website/home.html
 
+[By @aarextiaokhiao] : https://aarextiaokhiao.github.io/
+Illion.js - A library for generating illions and standard notation with really huge numbers - : https://github.com/aarextiaokhiao/illions.js/
+
 [By Renrui Qi]
 Laver table yarn proff : https://arxiv.org/pdf/2501.06733
 
