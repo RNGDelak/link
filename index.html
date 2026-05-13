@@ -65,13 +65,136 @@
         .project-info {
             flex: 1;
         }
+
+        /* ===== 10K SPECIAL HEADER ===== */
+
+.top-celebration {
+    position: relative;
+    padding-top: 18px;
+    margin-bottom: 25px;
+}
+
+/* rainbow line */
+
+.top-celebration::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(700px, 90%);
+    height: 4px;
+    border-radius: 999px;
+
+    background: linear-gradient(
+        90deg,
+        #ff4d4d,
+        #ffae00,
+        #fff200,
+        #00d26a,
+        #00cfff,
+        #7a5cff,
+        #ff4da6
+    );
+
+    background-size: 300% 100%;
+
+    animation: discoFlow 8s linear infinite;
+
+    opacity: 0.9;
+}
+
+/* soft glow */
+
+.top-celebration::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(700px, 90%);
+    height: 24px;
+
+    background: linear-gradient(
+        90deg,
+        #ff4d4d,
+        #ffae00,
+        #00d26a,
+        #00cfff,
+        #7a5cff
+    );
+
+    filter: blur(18px);
+    opacity: 0.18;
+    pointer-events: none;
+}
+
+/* floating sparkles */
+
+.sparkles {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 10px;
+    margin-bottom: 8px;
+    opacity: 0.7;
+
+    animation: sparkleFloat 3s ease-in-out infinite;
+}
+
+/* badge */
+
+.special-badge {
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    padding: 3px 8px;
+    border-radius: 999px;
+    margin-top: 8px;
+    background: #fafafa;
+}
+
+/* animations */
+
+@keyframes discoFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 300% 50%;
+    }
+}
+
+@keyframes sparkleFloat {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+}
+        
     </style>
 </head>
 
 <body>
 
-<h1>Googology <a target="_blank" href="#">Links</a></h1>
+<div class="top-celebration">
 
+    <div class="sparkles">
+        ✦ ✧ ✦ ✧ ✦
+    </div>
+
+    <h1>
+        Googology <a target="_blank" href="#">Links</a>
+    </h1>
+
+    <div style="text-align:center;">
+        <span class="special-badge">
+            10,000 Visits Special
+        </span>
+    </div>
+
+</div>
 <div class="subtitle">
     <div id="counter"></div><br>
     This site is a collec<a target="_blank" href="https://raw.githubusercontent.com/RNGDelak/html5speedhack/refs/heads/main/speedhack.js">tio</a>n of interesting googology projects (in<a target="_blank" href="https://raw.githubusercontent.com/RNGDelak/html5speedhack/refs/heads/main/message.js">clu</a>ding some of my own).<br>
