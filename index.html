@@ -207,7 +207,7 @@
 
 
 <input id="search" placeholder="Search projects...">
-<b>Tired of thinking what to explore first? May I roll for you — </b><a href="#" id="randomLinkBtn">Random link</a> <br>
+<b>Tired of thinking what to explore first? May I roll for you — </b><a href="#" id="randomLinkBtn">Random link</a> <span id="randomCount"></span><br>
 
 <div class="section">
     <h2>Large Number Gradually Increasing (LNGI)</h2>
@@ -699,29 +699,54 @@ function highlight(element, term) {
     }
 }
 
-// ===== RANDOM LINK =====
+// ===== RANDOM LINK EASTER EGG =====
 
-document.getElementById("randomLinkBtn").addEventListener("click", (e) => {
+function getValidLinks() {
 
-    e.preventDefault();
-
-    // collect every valid external link
-    const links = [...document.querySelectorAll("a[href]")].filter(a => {
+    return [...document.querySelectorAll("a[href]")].filter(a => {
 
         const href = a.getAttribute("href");
 
-        // ignore empty anchors, javascript links, and the button itself
         return href &&
                href !== "#" &&
                !href.startsWith("javascript:") &&
                a.id !== "randomLinkBtn";
     });
+}
 
-    // pick random link
+
+// update counter text
+function updateRandomCount() {
+
+    const count = getValidLinks().length;
+
+    document.getElementById("randomCount").textContent =
+        ` (${count} links available)`;
+}
+
+updateRandomCount();
+
+
+// random button
+document.getElementById("randomLinkBtn").addEventListener("click", (e) => {
+
+    e.preventDefault();
+
+    const links = getValidLinks();
+
     const random = links[Math.floor(Math.random() * links.length)];
+
+    // funny flash effect
+    random.style.transition = "0.3s";
+    random.style.background = "yellow";
+
+    setTimeout(() => {
+        random.style.background = "";
+    }, 1000);
 
     window.open(random.href, "_blank");
 });
+
 
 // ===== USER STATS =====
 
@@ -800,6 +825,7 @@ window.addEventListener("beforeunload", () => {
         totalMs + currentSession
     )
 })
+
 
 </script>
 
