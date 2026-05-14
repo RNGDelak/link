@@ -727,17 +727,13 @@ document.getElementById("randomLinkBtn").addEventListener("click", (e) => {
 
 const statsBox = document.getElementById("userStats")
 
-// VISITS
+// ===== VISITS =====
+
 let visits = Number(localStorage.getItem("visits") || 0)
 
-// only count once per session
-if (!sessionStorage.getItem("visitedThisSession")) {
+visits++
 
-    visits++
-    localStorage.setItem("visits", visits)
-
-    sessionStorage.setItem("visitedThisSession", "true")
-}
+localStorage.setItem("visits", visits)
 
 // TIME TRACKING
 let totalMs = Number(localStorage.getItem("totalTimeMs") || 0)
