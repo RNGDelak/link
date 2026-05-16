@@ -69,6 +69,7 @@ BAN Lngi posts log : https://onedrive.live.com/view.aspx?resid=B18A2D404265DD62!
 
 [=======Document=======]
 Extended of Fast growing hierachy to real number and Construction of Solutions for Complex Superfunctions and Iterative Functional Equations : https://github.com/RNGDelak/link/blob/main/Document/Construction%20of%20Solutions%20of%20Complex%20Superfunctions%20and%20Iter%20(12).pdf
+T!LLAH (Thien’s LLAH) Lettered Arithmetic Hierachy : https://docs.google.com/document/d/1QcHArzWe4OG4hAA7NRVoWeNpCrhl2XlR3DxhZKba9wU/edit?usp=drivesdk
 
 [=======Sheets=======]
 Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
