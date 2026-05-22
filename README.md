@@ -19,6 +19,7 @@ Azerty's Mutiplayer LNGI Sheet : https://docs.google.com/spreadsheets/d/1qvhMedj
 
 [By @naruyoko]
 Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
+[Googology stuff by @naruyoko] : https://naruyoko.github.io/googology/
 
 [By @solverseek666] : https://solverseek666.github.io/googology-website/
 Tremedously large Number list by @solverseek666 : https://solverseek666.github.io/googology-website/CLoTLN/
