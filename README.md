@@ -9,7 +9,7 @@ aSAN analysis sheet by @Shaoju : https://docs.google.com/spreadsheets/d/10-bmqvK
 Multiple notations (BEAF, SSS, BMS, EBOCF, IROCF, EBO,...) analysis by @solarzone1010 : https://docs.google.com/spreadsheets/d/1-Lrqty2Ep8XB2KOxJn5fppEZ0F15zmPWmuhamOWBdXU/edit?gid=55640559#gid=55640559
 SCAN (Sequence pair Collapsing Array Notation) definition by @solarzone1010 : https://docs.google.com/document/d/1CYqWxXAvRHv-LIGnUvg4572zDbMhSkcnJ3deHEBj1_U/edit?usp=sharing
 ψΩ OCF Analyzer with pretty formatting by @solarzone : https://github.com/RNGDelak/link/blob/main/Document/ordinals_psi.py
-Illion v2 (goes up to 10^^n) by @solarzone :  https://docs.google.com/spreadsheets/d/1XaUtZbAZ3J3qktUKjjdAxcOdv8aAnLk0LPpF7OkxIJU/edit?gid=0#gid=0 and https://docs.google.com/document/d/1pq44bHmT5-GaO7R1JQkBvlQ9_NEvqircUj5c0JaV7rs/edit
+Illion v2 (goes up to 1000^^n) by @solarzone :  https://docs.google.com/spreadsheets/d/1XaUtZbAZ3J3qktUKjjdAxcOdv8aAnLk0LPpF7OkxIJU/edit?gid=0#gid=0 and https://docs.google.com/document/d/1pq44bHmT5-GaO7R1JQkBvlQ9_NEvqircUj5c0JaV7rs/edit
 
 [By @koteitan] : https://koteitan.github.io/
 BMS explained by @koteitan : https://github.com/RNGDelak/link/blob/main/Document/bmsexplainedbykoteitan.pdf
