@@ -82,6 +82,7 @@ Vulcaniz analysis sheet : https://docs.google.com/spreadsheets/d/1hw2cAGZUgBeC4t
 [=======Programs=======]
 Suddan Hyper-function : https://github.com/RNGDelak/link/blob/main/Document/suddenmatrixsystem.js
 
-[=======Community=======]
-Mathematics sever : https://discord.gg/math
+[=======Off-topics=======]
+Conway's Game of Life in Conway's Game of Life : https://oimo.io/works/life/
+Sandlife : https://oimo.io/works/sandlife/
 
