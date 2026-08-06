@@ -17,16 +17,41 @@
             margin: 20px;
             font-family: Arial, sans-serif;
             line-height: 1.5;
-
-            /* Universe background */
-            background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564");
-            background-size: cover;      /* Fill the screen */
-            background-position: center; /* Center the image */
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-
-            /* Optional: make text easier to read */
             color: white;
+            background-color: #0b0d17;
+            /* Fallback color */
+        }
+
+        /* Fixed universe background optimized for hardware acceleration */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            will-change: transform;
+            transform: translateZ(0);
+            /* Forces GPU layer creation */
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        html,
+        body {
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
         }
 
         h1 {
@@ -74,697 +99,816 @@
         .project-info {
             flex: 1;
         }
-
     </style>
 </head>
 
 <body>
 
-<h1>Googology <a target="_blank" href="#">Links</a></h1>
-<h1 style="color: red; font-weight: bold;">500K VISIT REACHED SUPER THANK YOU ALL OF YOU!!!!!!!!!</h1>
-    
-<div class="subtitle">
-    <div id="counter"></div><div class="user-stats" id="userStats"></div><br>
-    Website visit count history (all time): <a href="https://hitscounter.dev/history?url=https://rngdelak.github.io/link" target = "_blank">Statistics</a>. Pretty cool!<br>
-    This site is a collec<a target="_blank" href="https://raw.githubusercontent.com/RNGDelak/html5speedhack/refs/heads/main/speedhack.js">tio</a>n of interesting googology projects (in<a target="_blank" href="https://raw.githubusercontent.com/RNGDelak/html5speedhack/refs/heads/main/message.js">clu</a>ding some of my own).<br>
-    <span style="color: red; font-weight: bold;">IMPORTANT : </span> <a target="_blank" href="https://forms.gle/AazLepRLboZNwiBS7">Submit project form</a> and <a target="_blank" href="https://forms.gle/iqoBbRkW4tFWgVF36">Report Bug form</a><br>
-    <span style="color: Blue; font-weight: bold;">If you’re new, start by exploring the tabs above. When you’re ready to go deeper, check out the ‘See More’ section!</span>
-    <br><br>
-    <span id="Facts">For FOS lovers: 0 1 ω ε<sub>0</sub> ε<sub>1</sub> ε<sub>1</sub>·ε<sub>0</sub> ε<sub>1</sub>·ε<sub>0</sub> + ε<sub>0</sub><sup>ε<sub>0</sub></sup> | Y(1,3,8,9,2,5,13,22,4,9,22,38,48) | ψ(χ(B - T[Z]<sub>B&lt;α&gt; - T(1,0) + 1</sub>))</span>
-</div>
+    <h1>Googology <a target="_blank" href="#">Links</a></h1>
+    <h1 style="color: red; font-weight: bold;">500K VISIT REACHED SUPER THANK YOU ALL OF YOU!!!!!!!!!</h1>
+
+    <div class="subtitle">
+        <div id="counter"></div>
+        <div class="user-stats" id="userStats"></div><br>
+        Website visit count history (all time): <a
+            href="https://hitscounter.dev/history?url=https://rngdelak.github.io/link" target="_blank">Statistics</a>.
+        Pretty cool!<br>
+        This site is a collec<a target="_blank"
+            href="https://raw.githubusercontent.com/RNGDelak/html5speedhack/refs/heads/main/speedhack.js">tio</a>n of
+        interesting googology projects (in<a target="_blank"
+            href="https://raw.githubusercontent.com/RNGDelak/html5speedhack/refs/heads/main/message.js">clu</a>ding some
+        of my own).<br>
+        <span style="color: red; font-weight: bold;">IMPORTANT : </span> <a target="_blank"
+            href="https://forms.gle/AazLepRLboZNwiBS7">Submit project form</a> and <a target="_blank"
+            href="https://forms.gle/iqoBbRkW4tFWgVF36">Report Bug form</a><br>
+        <span style="color: Blue; font-weight: bold;">If you’re new, start by exploring the tabs above. When you’re
+            ready to go deeper, check out the ‘See More’ section!</span>
+        <br><br>
+        <span id="Facts">For FOS lovers: 0 1 ω ε<sub>0</sub> ε<sub>1</sub> ε<sub>1</sub>·ε<sub>0</sub>
+            ε<sub>1</sub>·ε<sub>0</sub> + ε<sub>0</sub><sup>ε<sub>0</sub></sup> | Y(1,3,8,9,2,5,13,22,4,9,22,38,48) |
+            ψ(χ(B - T[Z]<sub>B&lt;α&gt; - T(1,0) + 1</sub>))</span>
+    </div>
 
 
-<input id="search" placeholder="Search projects...">
-<b>Tired of thinking what to explore first? May I roll for you — </b><a href="#" id="randomLinkBtn">Random link</a> <span id="randomCount"></span><br>
+    <input id="search" placeholder="Search projects...">
+    <b>Tired of thinking what to explore first? May I roll for you — </b><a href="#" id="randomLinkBtn">Random link</a>
+    <span id="randomCount"></span><br>
 
-<div class="section">
-    <h2>Large Number Gradually Increasing (LNGI)</h2>
+    <div class="section">
+        <h2>Large Number Gradually Increasing (LNGI)</h2>
 
-    <div class="project">
-        <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/SB%20BMS%20LNGI.png">
-        <div class="project-info">
-            An impressive BMS LNGI project built on Scratch.<br>
-            <a target="_blank" href="https://scratch.mit.edu/projects/1238318045/">Open project on Scratch </a> <a target="_blank" href="https://turbowarp.org/1238318045/fullscreen?fps=60&hqpen">Open project on Turbowarp</a>
+        <div class="project">
+            <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/SB%20BMS%20LNGI.png">
+            <div class="project-info">
+                An impressive BMS LNGI project built on Scratch.<br>
+                <a target="_blank" href="https://scratch.mit.edu/projects/1238318045/">Open project on Scratch </a> <a
+                    target="_blank" href="https://turbowarp.org/1238318045/fullscreen?fps=60&hqpen">Open project on
+                    Turbowarp</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/jsbmslngi.PNG">
+            <div class="project-info">
+                Another BMS LNGI version implemented in HTML.<br>
+                <a target="_blank" href="https://mrredsharkfan.github.io/bms-lngi/interface.html">View HTML version</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/illionlngi.png">
+            <div class="project-info">
+                Illions LNGI by @dshamlin98 (billion, trillion, quadrillion, and beyond).<br>
+                <a target="_blank" href="https://dshamlin98.github.io/Global%20LNGI%20names%20of%20numbers.html">Open
+                    project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/meta-omega-zero.png">
+            <div class="project-info">
+                Omega Notation LNGI where you just watch a number grow to absurdity. Zero Player!<br>
+                <a target="_blank" href="https://veprogames.github.io/omega-meta-zero/">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/wylngi.png">
+            <div class="project-info">
+                ωY-sequence LNGI by Termiunsfinity and contributions from meeeee
+                <a target="_blank" href="https://mrredsharkfan.github.io/w-Y-global-lngi/main.html">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/0y%20lngi.png">
+            <div class="project-info">
+                0Y LNGI by <a href='https://typn-gms.rf.gd/' target='_blank'>@typn</a> (formerly by meEEeEeeEE)
+                <a target="_blank" href="https://typn-gms.rf.gd/other/Y-Lngi-Backup.html">Open project</a>
+            </div>
         </div>
     </div>
 
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/jsbmslngi.PNG">
-        <div class="project-info">
-            Another BMS LNGI version implemented in HTML.<br>
-            <a target="_blank" href="https://mrredsharkfan.github.io/bms-lngi/interface.html">View HTML version</a>
+    <div class="section">
+        <h2>Games (Incremental Game)</h2>
+
+        Im also like games, because i love watching big number grow up but well well well don't be addicted!
+
+        <div class="project">
+            <img class="thumb" src="https://steamah.com/wp-content/uploads/2022/12/Antimatter-Dimensions.jpg">
+            <div class="project-info">
+                Antimatter Dimension : super iconic incremental game<br>
+                <a target="_blank" href="https://ivark.github.io/AntimatterDimensions/">Open Game</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://galaxy.click/thumb/small/8-1714965309118.webp">
+            <div class="project-info">
+                Ordinal Pringles : best way to start learning ordinal<br>
+                <a target="_blank" href="https://flamemasternxf.github.io/ordinal-pringles/">Open Game</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://galaxy.click/thumb/large/620-1765719216928.webp">
+            <div class="project-info">
+                Road of big number : Rewritten : Legendary incremental game that is hard, advanced and reached
+                unimaginable number scales<br>
+                By a lot of people, and it not for beginner so try antimatter dimension first if you are new<br>
+                <a target="_blank" href="https://rbn-rewrite-team.github.io/RBNR/">Open Game</a>
+            </div>
         </div>
     </div>
 
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/illionlngi.png">
-        <div class="project-info">
-            Illions LNGI by @dshamlin98 (billion, trillion, quadrillion, and beyond).<br>
-            <a target="_blank" href="https://dshamlin98.github.io/Global%20LNGI%20names%20of%20numbers.html">Open project</a>
+    <div class="section">
+        <h2>Transfinite Number Line</h2>
+        <b>I really love transfinite number line, so if you have any, just submit and you will get a really high chance
+            to get in here!</b><br>
+        <b>Facts : All transfinite number line goes further than ω<sup>ω</sup> uses a techniques which called "Ordinal
+            Interval Division". This can be done by several way, but finally all approachs goal is to converting ordinal
+            to rationals</b>
+
+        <div class="project">
+            <div class="project-info">
+                <span style="color: red; font-weight: bold;">MAKE YOUR OWN TRANSFINITE NUMBER LINE!!! : </span>
+                <a target="_blank" href="https://rngdelak.github.io/ord-generalized/">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb"
+                src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/Screenshot%202026-03-13%20112629.png">
+            <div class="project-info">
+                My Transfinite Number Line (up to ω).<br>
+                A great starting point if you want to build your own Transfinite Number Line.<br>
+                <a target="_blank" href="https://rngdelak.github.io/ord-w">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/TNL%20RNGDELAK.png">
+            <div class="project-info">
+                My Transfinite Number Line (up to ω<sup>ω</sup>).<br>
+                Uses complex transformations and rescaling of real-number intervals—one of the most mathematically
+                elegant projects here. <a target="_blank" href="https://rngdelak.github.io/ord-ww"> Open ord-ww</a><br>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb"
+                src="https://raw.githubusercontent.com/RNGDelak/link/refs/heads/main/Thumnail/e0%20solarzone.png">
+            <div class="project-info">
+                <a target="_blank" href="https://solarzone1010.github.io/">Solarzone1010's</a> Transfinite Number Line
+                (up to ε<sub>0</sub>).<br>
+                Uses fractionals division on real number axis. Like his version of Lim(BMS) <a target="_blank"
+                    href="https://github.com/RNGDelak/link/blob/main/Document/solarzone%20-%20w%5Ew.py"> Open
+                    source-code</a><br>
+                <span style="color: red; font-weight: bold;">IMPORTANT : run as python 3.13 because pygame haven't
+                    supported for pythong 3.14 yet</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb"
+                src="https://raw.githubusercontent.com/RNGDelak/link/refs/heads/main/Thumnail/madoretnl.png">
+            <div class="project-info">
+                <a target="_blank" href="http://www.madore.org/~david/">David Madore</a>'s Transfinite Number Line (up
+                to ε<sub>ε<sub>0</sub></sub>).<br>
+                This is a mathstick transfinite number line, which make it unique is the unsual bound ordinal
+                ε<sub>ε<sub>0</sub></sub><br>
+                It also very interactive, optimized and easy to use. Have various bound ordinal version but
+                ε<sub>ε<sub>0</sub></sub> is the largest so i choose it.<br>
+                <a target="_blank" href="http://www.madore.org/~david/math/drawordinals.html#?v=ee&i=0&l">Open
+                    project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://www.stephenbrooks.org/archive/ordinals/hidden/omomom.png">
+            <div class="project-info">
+                <a target="_blank" href="https://www.stephenbrooks.org/">Steven Brooks’</a> Transfinite Number Line (up
+                to Ψ<sub>0</sub>(I)).<br>
+                This transfinite number line is MYTHICAL. It a <b>must-try</b>, it so good that i used to spend hours to
+                just exploring ordinal on that programs.<br>
+                Fun facts : It was made in 2008, which make it the first transfinite number line ever existed. Also <a
+                    target="_blank" href="https://www.stephenbrooks.org/">Steven Brooks’</a> is a Theoretical physicist
+                , an insane programmer who really coded this Transfinite Number Line in Assembly!<br>
+                Links : <a target="_blank"
+                    href="https://stephenbrooks.org/archive/ordinals/ExtendedBuchholz_pre.zip">Download</a> / <a
+                    target="_blank" href="https://stephenbrooks.org/archive/ordinals">View</a> / <a target="_blank"
+                    href="https://stephenbrooks.org/archive/ordinals/ExtendedBuchholz_pre_linux.7z">Source Code</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb"
+                src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/Screenshot%202026-03-07%20080300.png">
+            <div class="project-info">
+                <a target="_blank" href="https://solarzone1010.github.io/">@Solarzone1010</a>'s Transfinite Number Line
+                (up to Lim(Bashicu Matrix System)).<br>
+                Performance can be slow, but it’s one of the most uniformed implementations available.<br>
+                <a target="_blank" href="http://solarzone898.github.io/BMS.exe">Download</a> /
+                <a target="_blank" href="https://solarzone1010.github.io/ordinalnumberline.html">View</a><br>
+                If the download fails, copy this link:<br>
+                http://solarzone898.github.io/BMS.exe
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb"
+                src="https://raw.githubusercontent.com/RNGDelak/link/refs/heads/main/Thumnail/landscapes.png">
+            <div class="project-info">
+                My Transfinite Number Line (up to Lim(Bashicu Matrix System)).<br>
+                This is my final TNL project. It’s unfinished, but still worth exploring.<br>
+                <a target="_blank" href="https://rngdelak.github.io/ord-limbms">Open project</a><br>
+                More details about how i make this project : <a target="_blank"
+                    href="https://github.com/RNGDelak/ord-limbms/blob/main/README.md">Here</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/mathsticktnl.png">
+            <div class="project-info">
+                Transfinite Number Line mathstick (up to Ψ<sub>0</sub>(I) and Y(1,5)).<br>
+                Usage Instructions:<br>
+                1. On mobile devices, drag an empty area of the screen to pan the map, and tap the plus or minus icons
+                to zoom in or out. Hold down the plus or minus icon and swipe to the right to zoom in or out more
+                quickly.<br>
+                2. On computers, hold down the mouse button and drag to pan the map, use the mouse wheel to zoom, press
+                T or G to adjust the zoom speed, and press W or S to adjust the rendering depth.<br>
+                <a target="_blank" href="https://wxyhly.github.io/ordmap/">View Extended Buchholz version</a> /
+                <a target="_blank" href="https://wxyhly.github.io/ordmap/?0Y">View Y(1,5) Version</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>Ordinal/Notation Explorer</h2>
+
+        <div class="project">
+            <div class="project-info">
+                A collection of multiple ordinal explorers—very cool!
+                <a target="_blank" href="https://waffle3z.github.io/notations">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                Garden of Ordinals—very detailed, though somewhat difficult to use.
+                <a target="_blank" href="https://davidexmachina.github.io/garden-of-ordinals/">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                cOCF ordinal explorer with two versions:
+                <a target="_blank" href="https://rgetar.github.io/">Open v1</a>
+                <a target="_blank" href="https://rgetar.github.io/Ordinal%20Explorer%20(February%202020).html">Open
+                    v2</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                Another ordinal explorer with a simple interface.
+                <a target="_blank" href="https://hypcos.github.io/notation-explorer/">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                <b>Notation Explorer + : A very advanced ordinal explorer with local storage analysis.</b>
+                <a target="_blank" href="https://mrredsharkfan.github.io/notation-explorer-analysis-mode/">Open
+                    project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                Notation Explorer + /ne-baixie-mod - more notations to explore :
+                <a target="_blank" href="https://veryrrd.googology.top/ne-baixie-mod/">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                Ordinal explorer that's kinda old but, unlike the others, has a search bar. :3
+                <a target="_blank" href="https://janipen.github.io/nox/">Open project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                Ordinal explorer by <a target="_blank" href="https://azertywastaken.github.io/Home">@azertywastaken</a>.
+                Has Wide range of notations, friendly across devices. Still in development so maybe not complete yet.
+                <a target="_blank" href="https://azertywastaken.github.io/Ordinals/">Open project</a>
+            </div>
         </div>
     </div>
 
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/meta-omega-zero.png">
-        <div class="project-info">
-            Omega Notation LNGI where you just watch a number grow to absurdity. Zero Player!<br>
-            <a target="_blank" href="https://veprogames.github.io/omega-meta-zero/">Open project</a>
+    <div class="section">
+        <h2>Ordinal / Notation Analyzer</h2>
+
+        <div class="project">
+            <img class="thumb"
+                src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/Screenshot%202026-03-06%20184312.png">
+            <div class="project-info">
+                Bashicu Matrix System analyzer (goes up to Small Stegert Ordinal) by
+                <a target="_blank" href="https://solarzone1010.github.io/">@solarzone1010</a>.<br>
+                <a target="_blank" href="https://solarzone1010.github.io/bms-analyzer-2.html">Open analyzer</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/wylngi.png">
-        <div class="project-info">
-            ωY-sequence LNGI by Termiunsfinity and contributions from meeeee 
-            <a target="_blank" href="https://mrredsharkfan.github.io/w-Y-global-lngi/main.html">Open project</a>
+
+        <div class="project">
+            <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/hemibmsana.png">
+            <div class="project-info">
+                BMS Analyzer below EBO, inspired by solarzone's website. Has a diagram to demystify the process.
+                <a target="_blank" href="https://hemisemidemipresent.github.io/bms/">Open analyzer</a>
+            </div>
         </div>
+
     </div>
 
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/0y%20lngi.png">
-        <div class="project-info">
-            0Y LNGI by <a href='https://typn-gms.rf.gd/' target = '_blank'>@typn</a> (formerly by meEEeEeeEE)
-            <a target="_blank" href="https://typn-gms.rf.gd/other/Y-Lngi-Backup.html">Open project</a>
+    <div class="section">
+        <h2>Number Library</h2>
+        <div class="project">
+            <div class="project-info">Break_infinity.js (up to e9e15) <a target="_blank"
+                    href="https://github.com/Patashu/break_infinity.js">Open library</a></div>
         </div>
-    </div>
-</div>
-
-<div class="section">
-    <h2>Games (Incremental Game)</h2>
-    
-    Im also like games, because i love watching big number grow up but well well well don't be addicted!
-       
-    <div class="project">
-        <img class="thumb" src="https://steamah.com/wp-content/uploads/2022/12/Antimatter-Dimensions.jpg">
-        <div class="project-info">
-            Antimatter Dimension : super iconic incremental game<br>
-            <a target="_blank" href="https://ivark.github.io/AntimatterDimensions/">Open Game</a>
+        <div class="project">
+            <div class="project-info">Break_eternity.js (up to 10^^e308) <a target="_blank"
+                    href="https://github.com/Patashu/break_eternity.js">Open library</a></div>
         </div>
-    </div>
-
-    <div class="project">
-        <img class="thumb" src="https://galaxy.click/thumb/small/8-1714965309118.webp">
-        <div class="project-info">
-            Ordinal Pringles : best way to start learning ordinal<br>
-            <a target="_blank" href="https://flamemasternxf.github.io/ordinal-pringles/">Open Game</a>
+        <div class="project">
+            <div class="project-info">OmegaNum.js (up to f<sub>ω</sub>) <a target="_blank"
+                    href="https://github.com/Naruyoko/OmegaNum.js">Open library</a></div>
         </div>
-    </div>
-    
-    <div class="project">
-        <img class="thumb" src="https://galaxy.click/thumb/large/620-1765719216928.webp">
-        <div class="project-info">
-            Road of big number : Rewritten : Legendary incremental game that is hard, advanced and reached unimaginable number scales<br>
-            By a lot of people, and it not for beginner so try antimatter dimension first if you are new<br>
-            <a target="_blank" href="https://rbn-rewrite-team.github.io/RBNR/">Open Game</a>
+        <div class="project">
+            <div class="project-info">ExpantaNum.js (up to f<sub>ω+1</sub>) <a target="_blank"
+                    href="https://github.com/Naruyoko/ExpantaNum.js">Open library</a></div>
         </div>
-    </div>
-</div>
-
-<div class="section">
-    <h2>Transfinite Number Line</h2>
-    <b>I really love transfinite number line, so if you have any, just submit and you will get a really high chance to get in here!</b><br>
-    <b>Facts : All transfinite number line goes further than ω<sup>ω</sup> uses a techniques which called "Ordinal Interval Division". This can be done by several way, but finally all approachs goal is to converting ordinal to rationals</b>
-
-    <div class="project">
-        <div class="project-info">
-            <span style="color: red; font-weight: bold;">MAKE YOUR OWN TRANSFINITE NUMBER LINE!!! : </span>
-            <a target="_blank" href="https://rngdelak.github.io/ord-generalized/">Open project</a>
+        <div class="project">
+            <div class="project-info">MegotaNum.js (up to f<sub>ω<sup>2</sup>+1</sub>) <a target="_blank"
+                    href="https://github.com/sonic3XE/MegotaNum.js">Open library</a></div>
         </div>
-    </div>
-    
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/Screenshot%202026-03-13%20112629.png">
-        <div class="project-info">
-            My Transfinite Number Line (up to ω).<br>
-            A great starting point if you want to build your own Transfinite Number Line.<br>
-            <a target="_blank" href="https://rngdelak.github.io/ord-w">Open project</a>
+        <div class="project">
+            <div class="project-info">PowiainaNum.js (up to f<sub>ω<sup>3</sup>+1</sub>) <a target="_blank"
+                    href="https://github.com/VeryrrDefine/PowiainaNum.js">Open library</a></div>
+        </div>
+        <div class="project">
+            <div class="project-info">HugeNumberjs (up to f<sub>ω<sup>ω</sup></sub>) <a target="_blank"
+                    href="https://github.com/nirvanasupermind/hugenumberjs">Open library</a></div>
+        </div>
+        <div class="project">
+            <div class="project-info">MetaNum.js (up to f<sub>ε<sub>0</sub></sub>) <a target="_blank"
+                    href="https://github.com/dlsdl/metanum">Open library</a></div>
         </div>
     </div>
 
-    <div class="project">
-        <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/TNL%20RNGDELAK.png">
-        <div class="project-info">
-            My Transfinite Number Line (up to ω<sup>ω</sup>).<br>
-            Uses complex transformations and rescaling of real-number intervals—one of the most mathematically elegant projects here. <a target="_blank" href="https://rngdelak.github.io/ord-ww"> Open ord-ww</a><br>
+    <div class="section">
+        <h2>Excel / Google Sheets Analysis</h2>
+
+        <div class="project">
+            <div class="project-info">
+                Massive Hyper-E number list (146K+ entries).
+                <a target="_blank"
+                    href="https://docs.google.com/spreadsheets/d/1J6bv_n_tNIJ1aMZXic1cncV5u5JFEDOXXrqkL80ce_U/edit?gid=0#gid=0">Open
+                    sheet</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                Meta Sheet Analysis—exploring numbers below ω<sub>1</sub><sup>ck</sup>.
+                <a target="_blank"
+                    href="https://docs.google.com/spreadsheets/d/1bhhHagZivlUAc225OA9_kbIYqlB-SObEdu6WDDq6s7s/edit?usp=drivesdk">Open
+                    sheet</a>
+            </div>
         </div>
     </div>
 
-    <div class="project">
-        <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/TNL%20RNGDELAK.png">
-        <div class="project-info">
-            <a target="_blank" href="https://solarzone1010.github.io/">Solarzone1010's</a> Transfinite Number Line (up to ε<sub>0</sub>).<br>
-            Uses fractionals division on real number axis. Like his version of Lim(BMS) <a target="_blank" href="https://github.com/RNGDelak/link/blob/main/Document/solarzone%20-%20w%5Ew.py"> Open source-code</a><br>
-            <span style="color: red; font-weight: bold;">IMPORTANT : run as python 3.13 because pygame haven't supported for pythong 3.14 yet</span>
+    <div class="section">
+        <h2>Users</h2>
+
+        <div class="project">
+            <div class="project-info"><a target="_blank" href="https://solarzone1010.github.io/">@Solarzone1010</a>
+                creates many large-number projects—each one is incredibly impressive.</div>
         </div>
-    </div>
-    
-    <div class="project">
-        <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/refs/heads/main/Thumnail/madoretnl.png">
-        <div class="project-info">
-            <a target="_blank" href="http://www.madore.org/~david/">David Madore</a>'s Transfinite Number Line (up to ε<sub>ε<sub>0</sub></sub>).<br>
-            This is a mathstick transfinite number line, which make it unique is the unsual bound ordinal ε<sub>ε<sub>0</sub></sub><br>
-            It also very interactive, optimized and easy to use. Have various bound ordinal version but ε<sub>ε<sub>0</sub></sub> is the largest so i choose it.<br>
-            <a target="_blank" href="http://www.madore.org/~david/math/drawordinals.html#?v=ee&i=0&l">Open project</a>
+        <div class="project">
+            <div class="project-info"><a target="_blank" href="https://wxyhly-en.github.io/">@wxyhly</a> Creates
+                transfinte number line that surprisingly smooth and fast with high limit ordinal rendered!</div>
         </div>
+        <div class="project">
+            <div class="project-info"><a target="_blank" href="http://www.madore.org/~david/">David Madore</a> who makes
+                a lot of mathmatics work. Worth to explore!</div>
+        </div>
+        <div class="project">
+            <div class="project-info"><a target="_blank" href="https://davidexmachina.github.io/">@davidexmachina</a> is
+                the creator of “Garden of Ordinals” and a highly skilled programmer who also writes informative
+                articles.</div>
+        </div>
+        <div class="project">
+            <div class="project-info"><a target="_blank" href="https://aarextiaokhiao.github.io/">@aarextiaokhiao</a> is
+                an active user focused on game development—especially incremental games.</div>
+        </div>
+        <div class="project">
+            <div class="project-info"><a target="_blank" href="https://veryrrd.googology.top/">@veryrrd</a> who created
+                PowiainaNum.js and Ordinal Explorer +. Master!</div>
+        </div>
+        <div class="project">
+            <div class="project-info"><a target="_blank"
+                    href="https://rgetar.github.io/Ordinal%20Explorer%20(versions).htm">@rgetar</a> develops cOCF
+                ordinal explorers and educational tools.</div>
+        </div>
+        <div class="project">
+            <div class="project-info"><a target="_blank" href="https://koteitan.github.io/">@koteitan</a> also creates
+                googology projects, many of which are quite complex. Very good at explaining complex concepts, like BMS
+                in a very simple way.</div>
+        </div>
+        <div class="project">
+            <div class="project-info"><a target="_blank"
+                    href="https://azertywastaken.github.io/Home/">@azertywastaken</a> who created an ordinal explorer
+                that has many many notations and support across devices.</div>
+        </div>
+
     </div>
 
-    <div class="project">
-        <img class="thumb" src="https://www.stephenbrooks.org/archive/ordinals/hidden/omomom.png">
-        <div class="project-info">
-            <a target="_blank" href="https://www.stephenbrooks.org/">Steven Brooks’</a> Transfinite Number Line (up to Ψ<sub>0</sub>(I)).<br>
-            This transfinite number line is MYTHICAL. It a <b>must-try</b>, it so good that i used to spend hours to just exploring ordinal on that programs.<br>
-            Fun facts : It was made in 2008, which make it the first transfinite number line ever existed. Also <a target="_blank" href="https://www.stephenbrooks.org/">Steven Brooks’</a> is a Theoretical physicist , an insane programmer who really coded this Transfinite Number Line in Assembly!<br>
-            Links : <a target="_blank" href="https://stephenbrooks.org/archive/ordinals/ExtendedBuchholz_pre.zip">Download</a> / <a target="_blank" href="https://stephenbrooks.org/archive/ordinals">View</a> / <a target="_blank" href="https://stephenbrooks.org/archive/ordinals/ExtendedBuchholz_pre_linux.7z">Source Code</a>
-        </div>
-    </div>
+    <div class="section">
+        <h2>Communities</h2>
 
-    <div class="project">
-        <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/Screenshot%202026-03-07%20080300.png">
-        <div class="project-info">
-            <a target="_blank" href="https://solarzone1010.github.io/">@Solarzone1010</a>'s Transfinite Number Line (up to Lim(Bashicu Matrix System)).<br>
-            Performance can be slow, but it’s one of the most uniformed implementations available.<br>
-            <a target="_blank" href="http://solarzone898.github.io/BMS.exe">Download</a> /
-            <a target="_blank" href="https://solarzone1010.github.io/ordinalnumberline.html">View</a><br>
-            If the download fails, copy this link:<br>
-            http://solarzone898.github.io/BMS.exe
+        <div class="project">
+            <img class="thumb"
+                src="https://cdn.discordapp.com/icons/589829547667619852/2504cc13ff3828c7c7f28b853a012aa7.png?size=1024">
+            <div class="project-info">
+                LNGI & Counting server—a great place to learn about ordinal hierarchies and large-number
+                programming.<br>
+                <a target="_blank" href="https://discord.gg/duXNgsxT">Join Discord</a>
+            </div>
         </div>
-    </div>
 
-    <div class="project">
-        <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/refs/heads/main/Thumnail/e0%20solarzone.png">
-        <div class="project-info">
-            My Transfinite Number Line (up to Lim(Bashicu Matrix System)).<br>
-            This is my final TNL project. It’s unfinished, but still worth exploring.<br>
-            <a target="_blank" href="https://rngdelak.github.io/ord-limbms">Open project</a><br>
-            More details about how i make this project : <a target="_blank" href="https://github.com/RNGDelak/ord-limbms/blob/main/README.md">Here</a>
-        </div>
-    </div>
-    
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/mathsticktnl.png">
-        <div class="project-info">
-             Transfinite Number Line mathstick (up to Ψ<sub>0</sub>(I) and Y(1,5)).<br>
-             Usage Instructions:<br>
-             1. On mobile devices, drag an empty area of the screen to pan the map, and tap the plus or minus icons to zoom in or out. Hold down the plus or minus icon and swipe to the right to zoom in or out more quickly.<br>
-             2. On computers, hold down the mouse button and drag to pan the map, use the mouse wheel to zoom, press T or G to adjust the zoom speed, and press W or S to adjust the rendering depth.<br>
-            <a target="_blank" href="https://wxyhly.github.io/ordmap/">View Extended Buchholz version</a> /
-            <a target="_blank" href="https://wxyhly.github.io/ordmap/?0Y">View Y(1,5) Version</a>
-        </div>
-    </div>
-    
-</div>
-
-<div class="section">
-    <h2>Ordinal/Notation Explorer</h2>
-
-    <div class="project">
-        <div class="project-info">
-            A collection of multiple ordinal explorers—very cool! 
-            <a target="_blank" href="https://waffle3z.github.io/notations">Open project</a>
+        <div class="project">
+            <img class="thumb"
+                src="https://cdn.discordapp.com/icons/206932820206157824/b9127fed58eddf3c64cf6861cadb16aa.png?size=1024">
+            <div class="project-info">
+                Googology & Aperiology server—more advanced discussions for deeper exploration.<br>
+                <a target="_blank" href="https://discord.gg/r3F2WAQEth">Join Discord</a>
+            </div>
         </div>
     </div>
 
-    <div class="project">
-        <div class="project-info">
-            Garden of Ordinals—very detailed, though somewhat difficult to use. 
-            <a target="_blank" href="https://davidexmachina.github.io/garden-of-ordinals/">Open project</a>
+    <div class="section">
+        <h2>Hyperlinks</h2>
+
+        <div class="project">
+            <div class="project-info">
+                Googology main page. there are 3 site <a target="_blank"
+                    href="https://googology.miraheze.org/wiki/Main_Page">Open Miraheze link</a> , <a target="_blank"
+                    href="https://googology.fandom.com/wiki/Googology_Wiki">Open Fandom link</a> and <a target="_blank"
+                    href="https://wiki.googology.top">Open Googology.top link(use translater unless you're chinese)</a>
+            </div>
         </div>
     </div>
 
-    <div class="project">
-        <div class="project-info">
-            cOCF ordinal explorer with two versions: 
-            <a target="_blank" href="https://rgetar.github.io/">Open v1</a>
-            <a target="_blank" href="https://rgetar.github.io/Ordinal%20Explorer%20(February%202020).html">Open v2</a>
+    <div class="section">
+        <h2>See more!</h2>
+
+        <p>
+            This section has a bunch of links from many topics, so I decided to hide it:
+            <a href="javascript:void(0)" onclick="toggleLinks(this)">[show all links]</a>
+        </p>
+
+        <div id="moreLinks" style="display:none; margin-top:15px;"></div>
+    </div>
+
+    <div class="section">
+        <h2>Legacy List</h2>
+        <p>None yet.</p>
+    </div>
+
+    <div class="section">
+        <h2>Questions and Answers</h2>
+        This used to explains your questions that i can't put on the header of the page thwart tiny padding
+        <div class="project">
+            <div class="project-info">
+                <b>Question : Why you make this website?</b><br>
+                Answer : Because at first, it intended to be a place for me to saves cool projects, but then i push it
+                further, a googology links collection that friendly to all users (including non-googologists)
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <b>Question : Why you hide the "See More" section</b><br>
+                Answer : Because it not well-categorised and a bit messy to display on mobile so i decided to make it
+                toggleable
+            </div>
         </div>
     </div>
 
-    <div class="project">
-        <div class="project-info">
-            Another ordinal explorer with a simple interface. 
-            <a target="_blank" href="https://hypcos.github.io/notation-explorer/">Open project</a>
-        </div>
+    <div class="section">
+        <h2>Trivia</h2>
+        <p>Thanks to everyone in the LNGI & Counting server for helping me discover great projects—especially
+            @solverseek and <a target="_blank" href="https://solarzone1010.github.io/">@Solarzone1010</a> for
+            introducing many concepts.</p>
+        <p>I originally considered adding a ranking system, but decided against it—every project here is equally
+            interesting.</p>
     </div>
 
-    <div class="project">
-        <div class="project-info">
-            <b>Notation Explorer + : A very advanced ordinal explorer with local storage analysis.</b> 
-            <a target="_blank" href="https://mrredsharkfan.github.io/notation-explorer-analysis-mode/">Open project</a>
-        </div>
-    </div>
+    <script>
 
-    <div class="project">
-        <div class="project-info">
-            Notation Explorer + /ne-baixie-mod - more notations to explore :
-            <a target="_blank" href="https://veryrrd.googology.top/ne-baixie-mod/">Open project</a>
-        </div>
-    </div>
-    
-    <div class="project">
-        <div class="project-info">
-            Ordinal explorer that's kinda old but, unlike the others, has a search bar. :3 
-            <a target="_blank" href="https://janipen.github.io/nox/">Open project</a>
-        </div>
-    </div>
-    
-    <div class="project">
-        <div class="project-info">
-            Ordinal explorer by <a target="_blank" href="https://azertywastaken.github.io/Home">@azertywastaken</a>. Has Wide range of notations, friendly across devices. Still in development so maybe not complete yet.
-            <a target="_blank" href="https://azertywastaken.github.io/Ordinals/">Open project</a>
-        </div>
-    </div>
-</div>
+        let FactsArr = [
+            "For FOS lovers: 0 1 ω ε<sub>0</sub> ε<sub>1</sub> ε<sub>1</sub>·ε<sub>0</sub> ε<sub>1</sub>·ε<sub>0</sub> + ε<sub>0</sub><sup>ε<sub>0</sub></sup> | Y(1,3,8,9,2,5,13,22,4,9,22,38,48) | ψ(χ(B - T[Z]<sub>B&lt;α&gt; - T(1,0) + 1</sub>))",
+            "Facts : Although Hardy hierachy is much weaker than Fast Growing hierachy , both will end up equalvalent at limit point ε<sub>0</sub> : H<sub>ε<sub>0</sub></sub>(n) ~ f<sub>ε<sub>0</sub></sub>(n) (do some analysis and it will be very surprising!)",
+            "Facts : Although Slow Growing hierachy is <b>Far</b> weaker than Fast Growing hierachy , both will end up equalvalent at limit point Ψ<sub>0</sub>(Ω<sub>ω</sub>) : S<sub>Ψ<sub>0</sub>(Ω<sub>ω</sub>)</sub>(n) ~ f<sub>Ψ<sub>0</sub>(Ω<sub>ω</sub>)</sub>(n) (do some analysis and it will be very surprising!)"
+        ];
+        const facts = document.getElementById("Facts");
+        // set innerHTML
+        facts.innerHTML = FactsArr[Math.floor(Math.random() * FactsArr.length)];
 
-<div class="section">
-    <h2>Ordinal / Notation Analyzer</h2>
+        let cachedSvg = null;
 
-    <div class="project">
-        <img class="thumb" src="https://raw.githubusercontent.com/RNGDelak/link/main/Thumnail/Screenshot%202026-03-06%20184312.png">
-        <div class="project-info">
-            Bashicu Matrix System analyzer (goes up to Small Stegert Ordinal) by 
-            <a target="_blank" href="https://solarzone1010.github.io/">@solarzone1010</a>.<br>
-            <a target="_blank" href="https://solarzone1010.github.io/bms-analyzer-2.html">Open analyzer</a>
-        </div>
-    </div>
+        async function getHitsSvg() {
+            if (cachedSvg) return cachedSvg;
 
-    <div class="project">
-        <img class="thumb" src="https://cdn.jsdelivr.net/gh/RNGDelak/link@main/Thumnail/hemibmsana.png">
-        <div class="project-info">
-            BMS Analyzer below EBO, inspired by solarzone's website. Has a diagram to demystify the process.
-            <a target="_blank" href="https://hemisemidemipresent.github.io/bms/">Open analyzer</a>
-        </div>
-    </div>
-    
-</div>
-    
-<div class="section">
-    <h2>Number Library</h2>
-    <div class="project"><div class="project-info">Break_infinity.js (up to e9e15) <a target="_blank" href="https://github.com/Patashu/break_infinity.js">Open library</a></div></div>
-    <div class="project"><div class="project-info">Break_eternity.js (up to 10^^e308) <a target="_blank" href="https://github.com/Patashu/break_eternity.js">Open library</a></div></div>
-    <div class="project"><div class="project-info">OmegaNum.js (up to f<sub>ω</sub>) <a target="_blank" href="https://github.com/Naruyoko/OmegaNum.js">Open library</a></div></div>
-    <div class="project"><div class="project-info">ExpantaNum.js (up to f<sub>ω+1</sub>) <a target="_blank" href="https://github.com/Naruyoko/ExpantaNum.js">Open library</a></div></div>
-    <div class="project"><div class="project-info">MegotaNum.js (up to f<sub>ω<sup>2</sup>+1</sub>) <a target="_blank" href="https://github.com/sonic3XE/MegotaNum.js">Open library</a></div></div>
-    <div class="project"><div class="project-info">PowiainaNum.js (up to f<sub>ω<sup>3</sup>+1</sub>) <a target="_blank" href="https://github.com/VeryrrDefine/PowiainaNum.js">Open library</a></div></div>
-    <div class="project"><div class="project-info">HugeNumberjs (up to f<sub>ω<sup>ω</sup></sub>) <a target="_blank" href="https://github.com/nirvanasupermind/hugenumberjs">Open library</a></div></div>
-    <div class="project"><div class="project-info">MetaNum.js (up to f<sub>ε<sub>0</sub></sub>) <a target="_blank" href="https://github.com/dlsdl/metanum">Open library</a></div></div>
-</div>
-    
-<div class="section">
-    <h2>Excel / Google Sheets Analysis</h2>
+            const res = await fetch(
+                "https://hitscounter.dev/api/hit?url=https://rngdelak.github.io/link&label=Total%20Accesses%20:%20&icon=eye&color=Red"
+            );
 
-    <div class="project">
-        <div class="project-info">
-            Massive Hyper-E number list (146K+ entries). 
-            <a target="_blank" href="https://docs.google.com/spreadsheets/d/1J6bv_n_tNIJ1aMZXic1cncV5u5JFEDOXXrqkL80ce_U/edit?gid=0#gid=0">Open sheet</a>
-        </div>
-    </div>
+            const svg = await res.text();
+            cachedSvg = svg; // cache for future use
 
-    <div class="project">
-        <div class="project-info">
-            Meta Sheet Analysis—exploring numbers below ω<sub>1</sub><sup>ck</sup>. 
-            <a target="_blank" href="https://docs.google.com/spreadsheets/d/1bhhHagZivlUAc225OA9_kbIYqlB-SObEdu6WDDq6s7s/edit?usp=drivesdk">Open sheet</a>
-        </div>
-    </div>
-</div>
+            return svg;
+        }
 
-<div class="section">
-    <h2>Users</h2>
+        const container = document.getElementById("counter");
 
-    <div class="project"><div class="project-info"><a target="_blank" href="https://solarzone1010.github.io/">@Solarzone1010</a> creates many large-number projects—each one is incredibly impressive.</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="https://wxyhly-en.github.io/">@wxyhly</a> Creates transfinte number line that surprisingly smooth and fast with high limit ordinal rendered!</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="http://www.madore.org/~david/">David Madore</a> who makes a lot of mathmatics work. Worth to explore!</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="https://davidexmachina.github.io/">@davidexmachina</a> is the creator of “Garden of Ordinals” and a highly skilled programmer who also writes informative articles.</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="https://aarextiaokhiao.github.io/">@aarextiaokhiao</a> is an active user focused on game development—especially incremental games.</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="https://veryrrd.googology.top/">@veryrrd</a> who created PowiainaNum.js and Ordinal Explorer +. Master!</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="https://rgetar.github.io/Ordinal%20Explorer%20(versions).htm">@rgetar</a> develops cOCF ordinal explorers and educational tools.</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="https://koteitan.github.io/">@koteitan</a> also creates googology projects, many of which are quite complex. Very good at explaining complex concepts, like BMS in a very simple way.</div></div>
-    <div class="project"><div class="project-info"><a target="_blank" href="https://azertywastaken.github.io/Home/">@azertywastaken</a> who created an ordinal explorer that has many many notations and support across devices.</div></div>
+        getHitsSvg().then(svg => {
+            container.innerHTML = svg;
+        });
 
-</div>
+        // ===== PRELOAD "SEE MORE" AS PROJECTS =====
+        document.addEventListener("DOMContentLoaded", async () => {
 
-<div class="section">
-    <h2>Communities</h2>
+            const box = document.getElementById("moreLinks")
 
-    <div class="project">
-        <img class="thumb" src="https://cdn.discordapp.com/icons/589829547667619852/2504cc13ff3828c7c7f28b853a012aa7.png?size=1024">
-        <div class="project-info">
-            LNGI & Counting server—a great place to learn about ordinal hierarchies and large-number programming.<br>
-            <a target="_blank" href="https://discord.gg/duXNgsxT">Join Discord</a>
-        </div>
-    </div>
+            try {
+                const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
+                const text = await res.text()
 
-    <div class="project">
-        <img class="thumb" src="https://cdn.discordapp.com/icons/206932820206157824/b9127fed58eddf3c64cf6861cadb16aa.png?size=1024">
-        <div class="project-info">
-            Googology & Aperiology server—more advanced discussions for deeper exploration.<br>
-            <a target="_blank" href="https://discord.gg/r3F2WAQEth">Join Discord</a>
-        </div>
-    </div>
-</div>
+                const lines = text.split("\n")
 
-<div class="section">
-    <h2>Hyperlinks</h2>
+                box.innerHTML = ""
 
-    <div class="project">
-        <div class="project-info">
-            Googology main page. there are 3 site <a target="_blank" href="https://googology.miraheze.org/wiki/Main_Page">Open Miraheze link</a> , <a target="_blank" href="https://googology.fandom.com/wiki/Googology_Wiki">Open Fandom link</a> and <a target="_blank" href="https://wiki.googology.top">Open Googology.top link(use translater unless you're chinese)</a> 
-        </div>
-    </div>
-</div>
+                lines.forEach(line => {
 
-<div class="section">
-    <h2>See more!</h2>
+                    if (line.trim() === "") return
 
-    <p>
-        This section has a bunch of links from many topics, so I decided to hide it:
-      <a href="javascript:void(0)" onclick="toggleLinks(this)">[show all links]</a>
-    </p>
+                    const project = document.createElement("div")
+                    project.className = "project"
 
-    <div id="moreLinks" style="display:none; margin-top:15px;"></div>
-</div>
+                    const info = document.createElement("div")
+                    info.className = "project-info"
 
-<div class="section">
-    <h2>Legacy List</h2>
-    <p>None yet.</p>
-</div>
+                    info.innerHTML = line
+                        .replace(/</g, "&lt;")
+                        .replace(/>/g, "&gt;")
+                        .replace(/\[([^\]]+)\]/g, "<b>$1</b>")
+                        .replace(
+                            /(https?:\/\/[^\s]+)/g,
+                            url => `<a href="${url}" target="_blank">${url}</a>`
+                        )
 
-<div class="section">
-    <h2>Questions and Answers</h2>
-    This used to explains your questions that i can't put on the header of the page thwart tiny padding
-    <div class="project">
-        <div class="project-info">
-            <b>Question : Why you make this website?</b><br>
-            Answer : Because at first, it intended to be a place for me to saves cool projects, but then i push it further, a googology links collection that friendly to all users (including non-googologists)
-        </div>
-    </div>
-    <div class="project">       
-        <div class="project-info">
-            <b>Question : Why you hide the "See More" section</b><br>
-            Answer : Because it not well-categorised and a bit messy to display on mobile so i decided to make it toggleable
-        </div>
-    </div>
-</div>
+                    project.appendChild(info)
 
-<div class="section">
-    <h2>Trivia</h2>
-    <p>Thanks to everyone in the LNGI & Counting server for helping me discover great projects—especially @solverseek and <a target="_blank" href="https://solarzone1010.github.io/">@Solarzone1010</a> for introducing many concepts.</p>
-    <p>I originally considered adding a ranking system, but decided against it—every project here is equally interesting.</p>
-</div>  
+                    // store original for highlight reset
+                    project.dataset.original = project.innerHTML
 
-<script>
-    
-let FactsArr = [
-    "For FOS lovers: 0 1 ω ε<sub>0</sub> ε<sub>1</sub> ε<sub>1</sub>·ε<sub>0</sub> ε<sub>1</sub>·ε<sub>0</sub> + ε<sub>0</sub><sup>ε<sub>0</sub></sup> | Y(1,3,8,9,2,5,13,22,4,9,22,38,48) | ψ(χ(B - T[Z]<sub>B&lt;α&gt; - T(1,0) + 1</sub>))",
-    "Facts : Although Hardy hierachy is much weaker than Fast Growing hierachy , both will end up equalvalent at limit point ε<sub>0</sub> : H<sub>ε<sub>0</sub></sub>(n) ~ f<sub>ε<sub>0</sub></sub>(n) (do some analysis and it will be very surprising!)",
-    "Facts : Although Slow Growing hierachy is <b>Far</b> weaker than Fast Growing hierachy , both will end up equalvalent at limit point Ψ<sub>0</sub>(Ω<sub>ω</sub>) : S<sub>Ψ<sub>0</sub>(Ω<sub>ω</sub>)</sub>(n) ~ f<sub>Ψ<sub>0</sub>(Ω<sub>ω</sub>)</sub>(n) (do some analysis and it will be very surprising!)"
-];
-const facts = document.getElementById("Facts");
-// set innerHTML
-facts.innerHTML = FactsArr[Math.floor(Math.random() * FactsArr.length)];
-    
-let cachedSvg = null;
+                    box.appendChild(project)
 
-async function getHitsSvg() {
-    if (cachedSvg) return cachedSvg;
+                })
 
-    const res = await fetch(
-        "https://hitscounter.dev/api/hit?url=https://rngdelak.github.io/link&label=Total%20Accesses%20:%20&icon=eye&color=Red"
-    );
-
-    const svg = await res.text();
-    cachedSvg = svg; // cache for future use
-
-    return svg;
-}
-
-const container = document.getElementById("counter");
-
-getHitsSvg().then(svg => {
-    container.innerHTML = svg;
-});    
-
-// ===== PRELOAD "SEE MORE" AS PROJECTS =====
-document.addEventListener("DOMContentLoaded", async () => {
-
-    const box = document.getElementById("moreLinks")
-
-    try {
-        const res = await fetch("https://raw.githubusercontent.com/RNGDelak/link/main/README.md")
-        const text = await res.text()
-
-        const lines = text.split("\n")
-
-        box.innerHTML = ""
-
-        lines.forEach(line => {
-
-            if (line.trim() === "") return
-
-            const project = document.createElement("div")
-            project.className = "project"
-
-            const info = document.createElement("div")
-            info.className = "project-info"
-
-            info.innerHTML = line
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/\[([^\]]+)\]/g, "<b>$1</b>")
-                .replace(
-                    /(https?:\/\/[^\s]+)/g,
-                    url => `<a href="${url}" target="_blank">${url}</a>`
-                )
-
-            project.appendChild(info)
-
-            // store original for highlight reset
-            project.dataset.original = project.innerHTML
-
-            box.appendChild(project)
+            } catch {
+                box.innerHTML = "Failed to load content."
+            }
 
         })
 
-    } catch {
-        box.innerHTML = "Failed to load content."
-    }
 
-})
+        // ===== TOGGLE SHOW / HIDE =====
+        function toggleLinks(btn) {
 
+            const box = document.getElementById("moreLinks")
 
-// ===== TOGGLE SHOW / HIDE =====
-function toggleLinks(btn) {
-
-    const box = document.getElementById("moreLinks")
-
-    if (box.style.display === "none") {
-        box.style.display = "block"
-        btn.textContent = "[hide all links]"
-    } else {
-        box.style.display = "none"
-        btn.textContent = "[show all links]"
-    }
-}
-
-
-// ===== SEARCH =====
-const search = document.getElementById("search")
-
-// store original content for existing projects
-document.querySelectorAll(".project").forEach(p => {
-    p.dataset.original = p.innerHTML
-})
-
-search.addEventListener("input", () => {
-
-    const term = search.value.toLowerCase()
-    const projects = document.querySelectorAll(".project")
-
-    projects.forEach(p => {
-
-        // reset content before re-highlighting
-        p.innerHTML = p.dataset.original
-
-        if (term === "") {
-            p.style.display = "flex"
-            return
+            if (box.style.display === "none") {
+                box.style.display = "block"
+                btn.textContent = "[hide all links]"
+            } else {
+                box.style.display = "none"
+                btn.textContent = "[show all links]"
+            }
         }
 
-        const text = p.innerText.toLowerCase()
 
-        if (text.includes(term)) {
-            p.style.display = "flex"
-            highlight(p, term)
-        } else {
-            p.style.display = "none"
+        // ===== SEARCH =====
+        const search = document.getElementById("search")
+
+        // store original content for existing projects
+        document.querySelectorAll(".project").forEach(p => {
+            p.dataset.original = p.innerHTML
+        })
+
+        search.addEventListener("input", () => {
+
+            const term = search.value.toLowerCase()
+            const projects = document.querySelectorAll(".project")
+
+            projects.forEach(p => {
+
+                // reset content before re-highlighting
+                p.innerHTML = p.dataset.original
+
+                if (term === "") {
+                    p.style.display = "flex"
+                    return
+                }
+
+                const text = p.innerText.toLowerCase()
+
+                if (text.includes(term)) {
+                    p.style.display = "flex"
+                    highlight(p, term)
+                } else {
+                    p.style.display = "none"
+                }
+
+            })
+
+        })
+
+
+        // ===== HIGHLIGHT FUNCTION =====
+        function highlight(element, term) {
+
+            const walker = document.createTreeWalker(
+                element,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            )
+
+            let node
+
+            while (node = walker.nextNode()) {
+
+                const text = node.nodeValue.toLowerCase()
+                const index = text.indexOf(term)
+
+                if (index >= 0) {
+
+                    const span = document.createElement("span")
+
+                    span.innerHTML =
+                        node.nodeValue.slice(0, index) +
+                        "<mark>" +
+                        node.nodeValue.slice(index, index + term.length) +
+                        "</mark>" +
+                        node.nodeValue.slice(index + term.length)
+
+                    node.replaceWith(span)
+                }
+            }
         }
 
-    })
+        // ===== RANDOM LINK EASTER EGG =====
 
-})
+        function getValidLinks() {
 
+            return [...document.querySelectorAll("a[href]")].filter(a => {
 
-// ===== HIGHLIGHT FUNCTION =====
-function highlight(element, term) {
+                const href = a.getAttribute("href");
 
-    const walker = document.createTreeWalker(
-        element,
-        NodeFilter.SHOW_TEXT,
-        null,
-        false
-    )
-
-    let node
-
-    while (node = walker.nextNode()) {
-
-        const text = node.nodeValue.toLowerCase()
-        const index = text.indexOf(term)
-
-        if (index >= 0) {
-
-            const span = document.createElement("span")
-
-            span.innerHTML =
-                node.nodeValue.slice(0, index) +
-                "<mark>" +
-                node.nodeValue.slice(index, index + term.length) +
-                "</mark>" +
-                node.nodeValue.slice(index + term.length)
-
-            node.replaceWith(span)
+                return href &&
+                    href !== "#" &&
+                    !href.startsWith("javascript:") &&
+                    a.id !== "randomLinkBtn";
+            });
         }
-    }
-}
-
-// ===== RANDOM LINK EASTER EGG =====
-
-function getValidLinks() {
-
-    return [...document.querySelectorAll("a[href]")].filter(a => {
-
-        const href = a.getAttribute("href");
-
-        return href &&
-               href !== "#" &&
-               !href.startsWith("javascript:") &&
-               a.id !== "randomLinkBtn";
-    });
-}
 
 
-// update counter text
-function updateRandomCount() {
+        // update counter text
+        function updateRandomCount() {
 
-    const count = getValidLinks().length;
+            const count = getValidLinks().length;
 
-    document.getElementById("randomCount").textContent =
-        ` (${count} links available)`;
-}
+            document.getElementById("randomCount").textContent =
+                ` (${count} links available)`;
+        }
 
-updateRandomCount();
-
-
-// random button
-document.getElementById("randomLinkBtn").addEventListener("click", (e) => {
-
-    e.preventDefault();
-
-    const links = getValidLinks();
-
-    const random = links[Math.floor(Math.random() * links.length)];
-
-    // funny flash effect
-    random.style.transition = "0.3s";
-    random.style.background = "yellow";
-
-    setTimeout(() => {
-        random.style.background = "";
-    }, 1000);
-
-    window.open(random.href, "_blank");
-});
+        updateRandomCount();
 
 
-// ===== USER STATS =====
+        // random button
+        document.getElementById("randomLinkBtn").addEventListener("click", (e) => {
 
-const statsBox = document.getElementById("userStats")
+            e.preventDefault();
 
-// ===== VISITS =====
+            const links = getValidLinks();
 
-let visits = Number(localStorage.getItem("visits") || 0)
+            const random = links[Math.floor(Math.random() * links.length)];
 
-visits++
+            // funny flash effect
+            random.style.transition = "0.3s";
+            random.style.background = "yellow";
 
-localStorage.setItem("visits", visits)
+            setTimeout(() => {
+                random.style.background = "";
+            }, 1000);
 
-// TIME TRACKING
-let totalMs = Number(localStorage.getItem("totalTimeMs") || 0)
-
-const startTime = Date.now()
-
-function formatTime(ms) {
-
-    let seconds = ms / 1000
-
-    const days = Math.floor(seconds / 86400)
-    seconds %= 86400
-
-    const hours = Math.floor(seconds / 3600)
-    seconds %= 3600
-
-    const minutes = Math.floor(seconds / 60)
-    seconds %= 60
-
-    const parts = []
-
-    if (days) parts.push(days + " day" + (days > 1 ? "s" : ""))
-    if (hours) parts.push(hours + " hour" + (hours > 1 ? "s" : ""))
-    if (minutes) parts.push(minutes + " minute" + (minutes > 1 ? "s" : ""))
-
-    // always show seconds
-    parts.push(seconds.toFixed(2) + " seconds")
-
-    return parts.join(" ")
-}
-
-function updateStats() {
-
-    const currentSession = Date.now() - startTime
-
-    const total = totalMs + currentSession
-
-    statsBox.innerHTML =
-        `You have visited this website for <b>${visits}</b> times and spent total of <b>${formatTime(total)}</b> on this website.`
-}
-
-// realtime timer
-setInterval(updateStats, 50)
-
-// save time periodically
-setInterval(() => {
-
-    const currentSession = Date.now() - startTime
-
-    localStorage.setItem(
-        "totalTimeMs",
-        totalMs + currentSession
-    )
-
-}, 1000)
-
-// save on leave
-window.addEventListener("beforeunload", () => {
-
-    const currentSession = Date.now() - startTime
-
-    localStorage.setItem(
-        "totalTimeMs",
-        totalMs + currentSession
-    )
-})
+            window.open(random.href, "_blank");
+        });
 
 
-</script>
+        // ===== USER STATS =====
+
+        const statsBox = document.getElementById("userStats")
+
+        // ===== VISITS =====
+
+        let visits = Number(localStorage.getItem("visits") || 0)
+
+        visits++
+
+        localStorage.setItem("visits", visits)
+
+        // TIME TRACKING
+        let totalMs = Number(localStorage.getItem("totalTimeMs") || 0)
+
+        const startTime = Date.now()
+
+        function formatTime(ms) {
+
+            let seconds = ms / 1000
+
+            const days = Math.floor(seconds / 86400)
+            seconds %= 86400
+
+            const hours = Math.floor(seconds / 3600)
+            seconds %= 3600
+
+            const minutes = Math.floor(seconds / 60)
+            seconds %= 60
+
+            const parts = []
+
+            if (days) parts.push(days + " day" + (days > 1 ? "s" : ""))
+            if (hours) parts.push(hours + " hour" + (hours > 1 ? "s" : ""))
+            if (minutes) parts.push(minutes + " minute" + (minutes > 1 ? "s" : ""))
+
+            // always show seconds
+            parts.push(seconds.toFixed(2) + " seconds")
+
+            return parts.join(" ")
+        }
+
+        function updateStats() {
+
+            const currentSession = Date.now() - startTime
+
+            const total = totalMs + currentSession
+
+            statsBox.innerHTML =
+                `You have visited this website for <b>${visits}</b> times and spent total of <b>${formatTime(total)}</b> on this website.`
+        }
+
+        // realtime timer
+        setInterval(updateStats, 50)
+
+        // save time periodically
+        setInterval(() => {
+
+            const currentSession = Date.now() - startTime
+
+            localStorage.setItem(
+                "totalTimeMs",
+                totalMs + currentSession
+            )
+
+        }, 1000)
+
+        // save on leave
+        window.addEventListener("beforeunload", () => {
+
+            const currentSession = Date.now() - startTime
+
+            localStorage.setItem(
+                "totalTimeMs",
+                totalMs + currentSession
+            )
+        })
+
+
+    </script>
 
 </body>
 
