@@ -85,6 +85,8 @@ Suddan Hyper-function : https://github.com/RNGDelak/link/blob/main/Document/sudd
 [=======Off-topics=======]
 Conway's Game of Life in Conway's Game of Life : https://oimo.io/works/life/
 Sandlife : https://oimo.io/works/sandlife/
+ZSnout fractal explorer v8 (IT MYTHIC BECAUSE YOU CAN LITERALLY PUT IN THE FRACTAL FORMULAR AND IT RENDER FOR YOU!!!) : https://v8.zsnout.com/fractal-explorer
+Actually you can use ultra fractal instead, but this one is easy to use
 
 
 
