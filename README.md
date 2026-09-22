@@ -74,6 +74,9 @@ Watch Number Grow Up by @mrredsharkfan : https://mrredsharkfan.github.io/Watch-N
 [By @log] : http://log.chez.com/
 Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.html
 
+[By @complexy]
+BMS vs Hyper-E comparison: https://docs.google.com/document/d/1zvG_T5Zj5w2-J6NPfdTC2N8xSG5v_0252-Gq72LHf_Q
+
 [=======Hyperlinks=======]
 BAN Lngi posts log : https://onedrive.live.com/view.aspx?resid=B18A2D404265DD62!1238&ithint=file%2Cdocx&authkey=!ALcuydfkZZg1_0k
 
