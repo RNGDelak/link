@@ -40,6 +40,10 @@ Fundamental Matrix System definition and Analysis by @solverseek666 (in progess 
 [By sky]
 Sky's strange notations : https://docs.google.com/document/d/15zcwQgXwkSLZyMo54D4qxNidELIZn4xnEJIi8WxOxyg/edit?tab=t.0
 
+[By @eric]
+The definition of the powerlog hierarchy: https://docs.google.com/document/d/1B42sr-1n-loiE2LpAnXoFf1XKN0HxMo27nyyE42ZTgY/edit?usp=sharing
+
+
 [By Me]
 FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
 FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyzer/
