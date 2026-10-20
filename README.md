@@ -95,6 +95,7 @@ Primitive Illion System : https://integralview.wordpress.com/2020/10/13/primitiv
 Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
 Collaborative number list : https://docs.google.com/spreadsheets/d/1ItJjHHBybYQIIq_SftJXVFGEdx_dZnT-ZAHY6oHbV-A/edit?gid=0#gid=0
 Vulcaniz analysis sheet : https://docs.google.com/spreadsheets/d/1hw2cAGZUgBeC4t4jsLj2ZaQdp2EWIy4_9A4MJ1bG4m4/edit?usp=drivesdk
+OM ordMarks analysis: https://docs.google.com/spreadsheets/d/1IjruHZGRZVR404kQsODscGQAEjPPRzmfM2hF2v8idC8/edit?gid=0#gid=0
 
 [=======Programs=======]
 Suddan Hyper-function : https://github.com/RNGDelak/link/blob/main/Document/suddenmatrixsystem.js
