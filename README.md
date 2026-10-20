@@ -24,6 +24,8 @@ BMS explained by @koteitan : https://github.com/RNGDelak/link/blob/main/Document
 Azerty's LNGI sheet by : https://docs.google.com/spreadsheets/d/1svVG0PeHin4Lh4ZvuxBvHysZFjTffZHB3118uiDnKI0/edit?usp=sharing
 Azerty's Mutiplayer LNGI Sheet : https://docs.google.com/spreadsheets/d/1qvhMedjJSnRA1hW3XhzjN8EMyOOEUTNAHLVQc_DeKPs/edit?usp=drivesdk
 Azerty's Analysis sheet: https://docs.google.com/spreadsheets/d/1f_k_2U2zeHJzSN316HS-q7-OWfivi0AVbvGCJSADt6A/edit?usp=sharing
+Attempt to extend FOS12: https://docs.google.com/spreadsheets/d/1x1lN4JDWnsH1iMQT6Xzfq_Ljfg8ePbHW1LhHz7NQ_JM/edit?usp=sharing
+
 
 [By @naruyoko]
 Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
@@ -43,8 +45,6 @@ Sky's strange notations : https://docs.google.com/document/d/15zcwQgXwkSLZyMo54D
 
 [By @eric]
 The definition of the powerlog hierarchy: https://docs.google.com/document/d/1B42sr-1n-loiE2LpAnXoFf1XKN0HxMo27nyyE42ZTgY/edit?usp=sharing
-Attempt to extend FOS12: https://docs.google.com/spreadsheets/d/1x1lN4JDWnsH1iMQT6Xzfq_Ljfg8ePbHW1LhHz7NQ_JM/edit?usp=sharing
-
 
 [By Me]
 FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
