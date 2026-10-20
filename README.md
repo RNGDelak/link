@@ -43,6 +43,7 @@ Sky's strange notations : https://docs.google.com/document/d/15zcwQgXwkSLZyMo54D
 
 [By @eric]
 The definition of the powerlog hierarchy: https://docs.google.com/document/d/1B42sr-1n-loiE2LpAnXoFf1XKN0HxMo27nyyE42ZTgY/edit?usp=sharing
+Attempt to extend FOS12: https://docs.google.com/spreadsheets/d/1x1lN4JDWnsH1iMQT6Xzfq_Ljfg8ePbHW1LhHz7NQ_JM/edit?usp=sharing
 
 
 [By Me]
