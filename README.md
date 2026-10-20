@@ -23,6 +23,7 @@ BMS explained by @koteitan : https://github.com/RNGDelak/link/blob/main/Document
 [By @azertywastaken] : https://azertywastaken.github.io/Home/
 Azerty's LNGI sheet by : https://docs.google.com/spreadsheets/d/1svVG0PeHin4Lh4ZvuxBvHysZFjTffZHB3118uiDnKI0/edit?usp=sharing
 Azerty's Mutiplayer LNGI Sheet : https://docs.google.com/spreadsheets/d/1qvhMedjJSnRA1hW3XhzjN8EMyOOEUTNAHLVQc_DeKPs/edit?usp=drivesdk
+Azerty's Analysis sheet: https://docs.google.com/spreadsheets/d/1f_k_2U2zeHJzSN316HS-q7-OWfivi0AVbvGCJSADt6A/edit?usp=sharing
 
 [By @naruyoko]
 Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSequence/
