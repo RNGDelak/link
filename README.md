@@ -25,6 +25,7 @@ Azerty's LNGI sheet by : https://docs.google.com/spreadsheets/d/1svVG0PeHin4Lh4Z
 Azerty's Mutiplayer LNGI Sheet : https://docs.google.com/spreadsheets/d/1qvhMedjJSnRA1hW3XhzjN8EMyOOEUTNAHLVQc_DeKPs/edit?usp=drivesdk
 Azerty's Analysis sheet: https://docs.google.com/spreadsheets/d/1f_k_2U2zeHJzSN316HS-q7-OWfivi0AVbvGCJSADt6A/edit?usp=sharing
 Attempt to extend FOS12: https://docs.google.com/spreadsheets/d/1x1lN4JDWnsH1iMQT6Xzfq_Ljfg8ePbHW1LhHz7NQ_JM/edit?usp=sharing
+Beyond FOS (i hope this work, since the idea is reall good): https://docs.google.com/spreadsheets/d/15hBxnKmJBd32j2Dl6rjtsf_oMqZMOCOOi28HBCzAkgY/edit?usp=sharing
 
 
 [By @naruyoko]
