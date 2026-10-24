@@ -36,7 +36,7 @@ Y^w expansion website by @naruyoko : https://naruyoko.github.io/StudyAndExpandSe
 Tremedously large Number list by @solverseek666 : https://solverseek666.github.io/googology-website/CLoTLN/
 Tremedously large Ordinal Number list by @solverseek666 : https://solverseek666.github.io/googology-website/CLoTLO/
 Stability analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1kR4fikKWPSwCd_1WwbNyhiZnKMBLp3B0x7ju8pjtb2o/edit?usp=sharing
-SKocf's analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1dF_fAWOe8qRK17tueuDX4hxJr7nkZjCvubhiox2iqJA/edit?usp=sharing
+Seekk's Extensive OCF analysis sheet by @solverseek666 : https://docs.google.com/spreadsheets/d/1dF_fAWOe8qRK17tueuDX4hxJr7nkZjCvubhiox2iqJA/edit?usp=sharing
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l6sw7VJPIuMgg5mPEKXHNdKhS_WoZ_qOgphfn4cj0c/edit?usp=sharing
 Fundamental Matrix System definition and Analysis by @solverseek666 (in progess and expected to be way stronger than FOS12) : https://docs.google.com/spreadsheets/d/11qE6zMiHjjRsbdKCpBOMNHmD6VOAjmTnfip6FW6x0-k/edit?usp=drivesdk
@@ -51,6 +51,9 @@ The definition of the powerlog hierarchy: https://docs.google.com/document/d/1B4
 FGH(Fast growing hierachy) LNGI by Me : https://rngdelak.github.io/FGHLngi/
 FGH(Fast growing hierachy) analyzer by Me : https://rngdelak.github.io/FGHanalyzer/
 Bird Linear Array Notation Comparator by Me : https://rngdelak.github.io/godgahnum/
+My attemps to analyse Buchholz OCF in notions of sets: https://docs.google.com/spreadsheets/d/18HqsaCjtlekeuQio2yBXrfBgYgalEBuhb5M-iOcG7NI/edit?gid=0#gid=0
+My attemps to create LPrSS psi (OCN): https://docs.google.com/spreadsheets/d/1TRooyOmGhZ44juky2Gt4wBMeObTPaepXDICFIKq1Pmc/edit?gid=0#gid=0
+
 
 [By @YT-AleX-1337]
 A python programe that lists transfinite ordinals in the BMS notation in a meaningful way by @YT-AleX-1337 : http://github.com/YT-AleX-1337/BMS-Ruler
@@ -85,6 +88,8 @@ Links about Transfinite Ordinal : http://log.chez.com/text/logic/links_ordinals.
 [By @complexy] : https://complexy-ether305.github.io/numbers-website.github.io/
 BMS vs Hyper-E comparison: https://docs.google.com/document/d/1zvG_T5Zj5w2-J6NPfdTC2N8xSG5v_0252-Gq72LHf_Q
 
+[=======This section contains stuff that owner are unknown, or collaborative=======]
+
 [=======Hyperlinks=======]
 BAN Lngi posts log : https://onedrive.live.com/view.aspx?resid=B18A2D404265DD62!1238&ithint=file%2Cdocx&authkey=!ALcuydfkZZg1_0k
 
@@ -98,6 +103,7 @@ Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spr
 Collaborative number list : https://docs.google.com/spreadsheets/d/1ItJjHHBybYQIIq_SftJXVFGEdx_dZnT-ZAHY6oHbV-A/edit?gid=0#gid=0
 Vulcaniz analysis sheet : https://docs.google.com/spreadsheets/d/1hw2cAGZUgBeC4t4jsLj2ZaQdp2EWIy4_9A4MJ1bG4m4/edit?usp=drivesdk
 OM ordMarks analysis: https://docs.google.com/spreadsheets/d/1IjruHZGRZVR404kQsODscGQAEjPPRzmfM2hF2v8idC8/edit?gid=0#gid=0
+Completely Incomprehensible Array Notations: https://docs.google.com/spreadsheets/d/1vRycRZ__DUjVOqak2YqakBagDLz89br9rE2PRR9uAEw/edit?gid=0#gid=0
 
 [=======Programs=======]
 Suddan Hyper-function : https://github.com/RNGDelak/link/blob/main/Document/suddenmatrixsystem.js
