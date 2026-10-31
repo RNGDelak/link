@@ -92,11 +92,19 @@ BMS vs Hyper-E comparison: https://docs.google.com/document/d/1zvG_T5Zj5w2-J6NPf
 
 [=======Hyperlinks=======]
 BAN Lngi posts log : https://onedrive.live.com/view.aspx?resid=B18A2D404265DD62!1238&ithint=file%2Cdocx&authkey=!ALcuydfkZZg1_0k
+Guys go on the Googology Fandom and click a random blog post relating to large numbers: https://googology.fandom.com/wiki/User_blog:Superman37891/Rayo_attempt_the_sequel
+List of ordinal notations: https://googology.miraheze.org/wiki/List_of_ordinal_notations 
 
 [=======Document=======]
 Extended of Fast growing hierachy to real number and Construction of Solutions for Complex Superfunctions and Iterative Functional Equations : https://github.com/RNGDelak/link/blob/main/Document/Construction%20of%20Solutions%20of%20Complex%20Superfunctions%20and%20Iter%20(12).pdf
 T!LLAH (Thien’s LLAH) Lettered Arithmetic Hierachy : https://docs.google.com/document/d/1QcHArzWe4OG4hAA7NRVoWeNpCrhl2XlR3DxhZKba9wU/edit?usp=drivesdk
 Primitive Illion System : https://integralview.wordpress.com/2020/10/13/primitive-illion-system/
+Well an ordinal is Mya (Disambiguation: https://googology.fandom.com/ja/wiki/ユーザーブログ:P進大好きbot/Rathjen型の順序数表記) if it is closed under every function f: Ord->Ord unprovably total in ZFC <:unbeknownst:1203389903484883074>
+what analysis? manopangar is not within that. maybe read this https://googology.fandom.com/wiki/User_blog:Paropangar/Using_Pbot%27s_variant_of_Kleene%27s_O_to_reach_PTO(ZFC)
+https://googology.fandom.com/wiki/User_blog:P%E9%80%B2%E5%A4%A7%E5%A5%BD%E3%81%8Dbot/List_of_My_Googological_Works
+https://googology.fandom.com/wiki/User_blog:P%E9%80%B2%E5%A4%A7%E5%A5%BD%E3%81%8Dbot/Ordinal_Notation_for_a_%22Proof-Theoretic_Analogue%22_of_the_PTO_of_ZFC
+https://googology.fandom.com/wiki/User_blog:Napstablook02/A_number_that_boggles_megafugafzgargoogolplex_minds
+
 
 [=======Sheets=======]
 Large number list (bbnteon part 1 : reincarnation) : https://docs.google.com/spreadsheets/d/1FhYPAKt3E93heASA630c80GmBtbYkdYb7EzcrqFg5QM/edit?usp=drivesdk
