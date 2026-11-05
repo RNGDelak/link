@@ -40,6 +40,7 @@ Seekk's Extensive OCF analysis sheet by @solverseek666 : https://docs.google.com
 Climbing Array Notation by @solverseek666 : https://docs.google.com/document/d/1833Vb3-aHWlbdSsNquiMNGGDdEMEKwUe213kbpLKxas/edit?usp=sharing
 Attemp to make an OCF by @solverseek666 : https://docs.google.com/document/d/13l6sw7VJPIuMgg5mPEKXHNdKhS_WoZ_qOgphfn4cj0c/edit?usp=sharing
 Fundamental Matrix System definition and Analysis by @solverseek666 (in progess and expected to be way stronger than FOS12) : https://docs.google.com/spreadsheets/d/11qE6zMiHjjRsbdKCpBOMNHmD6VOAjmTnfip6FW6x0-k/edit?usp=drivesdk
+collaborative number list ig idk: https://docs.google.com/spreadsheets/d/1ItJjHHBybYQIIq_SftJXVFGEdx_dZnT-ZAHY6oHbV-A/edit?usp=drivesdk
 
 [By sky]
 Sky's strange notations : https://docs.google.com/document/d/15zcwQgXwkSLZyMo54D4qxNidELIZn4xnEJIi8WxOxyg/edit?tab=t.0
